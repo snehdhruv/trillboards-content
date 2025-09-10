@@ -1,0 +1,16 @@
+{
+  "run_id": "run_20250909_182952_college-knockout-campus-tv-hustle",
+  "blueprint_id": "college-knockout-campus-tv-hustle",
+  "timestamp": "20250909_182952",
+  "final_video": "college-knockout-campus-tv-hustle_moviepy_complete_20250909_183745.mp4",
+  "thumbnail": null,
+  "scenes": [
+    "scene_01.mp4",
+    "scene_02.mp4",
+    "scene_03.mp4",
+    "scene_04.mp4",
+    "scene_05.mp4"
+  ],
+  "duration_sec": 40,
+  "file_size_bytes": 7656664
+}

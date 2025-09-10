@@ -1,0 +1,257 @@
+{
+  "id": "trillboards-lounge-hustle-viral-v2",
+  "theme": "Runway goddess turned the lounge TV into a $300 side hustle \u2014 champagne glass in hand, curves stealing the spotlight",
+  "avatar_style": {
+    "persona": "Rebellious, street-smart character who discovered underground money-making method; ex-struggler turned confident earner.",
+    "wardrobe": "Casual, slightly edgy street wear (hoodie, distressed jeans, comfortable sneakers) that signals 'regular person who cracked the code'.",
+    "setting": "Gritty, authentic workplace setting \u2013 a dimly lit corner of a bar lounge, a quiet breakroom, or a back office with a visible, currently dark TV screen. Real, slightly worn furniture, not polished. Ambient background noise (faint chatter, clinking glasses, but not distracting)."
+  },
+  "video_spec": {
+    "duration_sec": 40,
+    "framerate": 30,
+    "aspect_ratio": "9:16"
+  },
+  "script": [
+    {
+      "t_start": 0.0,
+      "t_end": 3.0,
+      "speaker": "host",
+      "line": "They said these dead TVs were worthless. I made $247 from one last week. My boss has NO idea.",
+      "broll_cue": "Close-up on host's face with a conspiratorial smirk, quickly cuts to phone screen showing $247 earnings, then a wide shot of a dark lounge TV.",
+      "on_screen_text": "MADE $247 FROM A DEAD TV?!"
+    },
+    {
+      "t_start": 3.0,
+      "t_end": 8.0,
+      "speaker": "host",
+      "line": "Just months ago, I was broke, hustling multiple shifts, staring at these empty screens. Thought I was stuck.",
+      "broll_cue": "Quick cuts: tired face, empty wallet being flipped open, host scrubbing a counter, then a long shot of the venue's quiet, dark TV.",
+      "on_screen_text": "THE GRIND WAS REAL"
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 16.0,
+      "speaker": "host",
+      "line": "Then I found out these dead TVs? They\u2019re basically ATMs waiting to be switched on. Here\u2019s exactly how I tap them for passive cash.",
+      "broll_cue": "Host pulls out phone, eyes darting around cautiously. Screen shows Trillboards app icon appearing, then app opening. Quick shot of a QR code on the TV.",
+      "on_screen_text": "TAP INTO DEAD TVs"
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 24.0,
+      "speaker": "host",
+      "line": "Most places have these screens, but management leaves 'em dark. Trillboards lets you turn 'em into local promo hubs in 30 seconds. No hardware, no IT, just your phone.",
+      "broll_cue": "Host quickly scans the QR code on the TV. POV shot of the Trillboards app showing 'playlist templates' and 'add local promos' options. TV screen in background flickers to life, showing a dynamic 'Bar Specials' or 'Upcoming Events' card.",
+      "on_screen_text": "YOUR PHONE, THEIR TV, YOUR MONEY"
+    },
+    {
+      "t_start": 24.0,
+      "t_end": 32.0,
+      "speaker": "host",
+      "line": "Last week, $247. This week? Already $180 in, and it's only Wednesday. This isn\u2019t a job, it's a quiet side hustle they don\u2019t want you to know about.",
+      "broll_cue": "Host quickly checks phone, revealing Trillboards earnings dashboard with numbers visibly increasing. Host subtly pockets a wad of cash, looking directly at the camera with a confident, knowing smirk.",
+      "on_screen_text": "SECRET $247/WEEK HUSTLE"
+    },
+    {
+      "t_start": 32.0,
+      "t_end": 40.0,
+      "speaker": "host",
+      "line": "It only works if you have access to a screen in a venue \u2013 a lounge, a cafe, a lobby. But if you do\u2026 what are you waiting for? Your champagne glass awaits.",
+      "broll_cue": "Host gestures broadly towards the now-active TV, then back to themselves with an empowering, exclusive look. Ends with a quick, confident nod.",
+      "on_screen_text": "YOUR TURN TO EARN!"
+    }
+  ],
+  "caption_overlay": [
+    {
+      "t_start": 0.0,
+      "t_end": 3.0,
+      "text": "I made $247 from a TV!",
+      "emphasis_tokens": [
+        "$247",
+        "TV!"
+      ]
+    },
+    {
+      "t_start": 3.0,
+      "t_end": 8.0,
+      "text": "They still don't know...",
+      "emphasis_tokens": [
+        "don't",
+        "know"
+      ]
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 16.0,
+      "text": "Underground TV money method",
+      "emphasis_tokens": [
+        "Underground",
+        "money"
+      ]
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 24.0,
+      "text": "Your boss won't tell you this",
+      "emphasis_tokens": [
+        "boss",
+        "won't"
+      ]
+    },
+    {
+      "t_start": 24.0,
+      "t_end": 32.0,
+      "text": "$247/week EXTRA income",
+      "emphasis_tokens": [
+        "$247/week",
+        "EXTRA"
+      ]
+    },
+    {
+      "t_start": 32.0,
+      "t_end": 40.0,
+      "text": "Works with ANY workplace TV",
+      "emphasis_tokens": [
+        "ANY",
+        "workplace"
+      ]
+    }
+  ],
+  "visual_cues": {
+    "primary": [
+      "money counting (implied or actual)",
+      "secret phone usage",
+      "TV screen transformations",
+      "gritty workplace settings",
+      "host's conspiratorial expressions"
+    ],
+    "secondary": [
+      "QR codes appearing/scanning",
+      "app interface (Trillboards)",
+      "subtle cash movements",
+      "stealth operations/glances over shoulder"
+    ]
+  },
+  "trillboards_touchpoints": [
+    {
+      "moment": "The Reveal",
+      "action": "Host quickly shows the Trillboards app loading on their phone screen, highlighting the ease of access.",
+      "why_it_helps": "Positions Trillboards as the accessible, discreet tool for this 'underground' method."
+    },
+    {
+      "moment": "The Setup",
+      "action": "Host demonstrates scanning the QR code at screen.trillboards.com, with the TV immediately reacting.",
+      "why_it_helps": "Emphasizes Trillboards' no-hardware, quick-setup advantage, making passive income seem effortless."
+    },
+    {
+      "moment": "The Results",
+      "action": "Host flashes Trillboards' earnings dashboard on their phone, showing variable but consistent payouts ($247, $180), or subtly counts cash.",
+      "why_it_helps": "Provides concrete proof of the concept, validating the 'side hustle' claim with believable numbers and triggering FOMO."
+    }
+  ],
+  "constraints_and_risks": [
+    "Keep it legal but edgy: Emphasize that 'earners' are venue staff/owners, not rogue hackers. The 'boss has no idea' refers to the private earnings, not illicit activity.",
+    "Don't encourage actual rule-breaking: Focus on monetizing *underutilized* screen time that venues *already have* access to.",
+    "Focus on legitimate unused/dead screen time: Frame it as optimizing existing assets, not stealing resources.",
+    "Avoid explicit sexualization: The 'runway goddess' theme is for aspirational outcome/feeling, not literal depiction. Imply confidence and freedom through earnings, not overt sexuality."
+  ],
+  "metrics_hypothesis": {
+    "hook_strength_guess": 9,
+    "retention_spikes_at_sec": [
+      1.0,
+      8.0,
+      24.0
+    ],
+    "shareability_notes": "Controversial angle (secret money), specific money claims, FOMO triggers, anti-establishment undertones, and empowering narrative for the 'everyday' person with access to a TV."
+  },
+  "variants": {
+    "alt_hooks": [
+      "This dead TV made me $247 last week. Here\u2019s the secret.",
+      "My boss doesn't know I'm making $60 a day from this lounge TV.",
+      "They call it 'digital signage.' I call it 'my secret ATM.'",
+      "I'm turning unused screens into passive income. You can too."
+    ],
+    "alt_pacing": [
+      "Money first, then method, then struggle story payoff.",
+      "Controversy (boss clueless), then method, then proof/money.",
+      "Struggle to success arc: setup, secret revealed, results, call to action."
+    ]
+  },
+  "rights_and_clearance_notes": "Edgy but legal content \u2013 focus on legitimate unused screen monetization for venue staff/owners. Ensure no copyrighted music or imagery is used. All 'boss has no idea' implications are about personal earnings, not unauthorized actions on company property.",
+  "scene_breakdown": [
+    {
+      "scene_number": 1,
+      "duration_sec": 8,
+      "scene_type": "text_to_video",
+      "prompt_text": "Dramatic close-up of a rebellious, street-smart person (host) in a dimly lit bar lounge. They have a conspiratorial smirk. Quick cuts to a phone screen showing a growing number ($247), then a slightly wider shot revealing a dark, inactive TV screen in the background. The lighting is moody, with shadows.",
+      "continuity_notes": "Establish the underground/secret money-making vibe with dramatic lighting and the host's expression. Introduce the 'dead TV' concept and initial money hook.",
+      "key_visual_elements": [
+        "host's expressive face",
+        "phone screen with earnings",
+        "dark lounge TV",
+        "moody lighting"
+      ],
+      "camera_instruction": "Starts with a tight close-up, then quick cuts with handheld style for authenticity. Slight lens flare from phone screen.",
+      "lighting_notes": "Dim, dramatic lighting, subtle glow from phone screen."
+    },
+    {
+      "scene_number": 2,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. Host glances around cautiously, then pulls out their phone. POV shot of their fingers navigating to and opening the Trillboards app. Their movements are quick and discreet. TV still dark in background.",
+      "continuity_notes": "Maintain the secretive atmosphere. Transition from struggle to discovery of the tool.",
+      "key_visual_elements": [
+        "host looking around",
+        "phone usage",
+        "Trillboards app icon",
+        "app opening sequence"
+      ],
+      "camera_instruction": "Over-the-shoulder shot of the phone screen, with the host's cautious movements in frame. Slight zoom into the phone screen.",
+      "lighting_notes": "Same dim lighting with phone screen glow illuminating host's face."
+    },
+    {
+      "scene_number": 3,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The dark TV screen flickers, then a QR code appears on it (screen.trillboards.com). Host quickly scans the QR code with their phone while maintaining cautious glances. The TV screen then transitions to a loading screen.",
+      "continuity_notes": "Build tension of the 'secret' operation. Show the key activation step.",
+      "key_visual_elements": [
+        "TV displaying QR code",
+        "phone scanning action",
+        "host's stealth behavior",
+        "TV loading screen"
+      ],
+      "camera_instruction": "Quick cuts between phone's camera view, host's face, and the TV screen. Handheld feel.",
+      "lighting_notes": "TV brightness illuminates the host's face dramatically as it comes to life."
+    },
+    {
+      "scene_number": 4,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The TV screen now fully displays dynamic content \u2013 e.g., 'Tonight's Bar Specials' with attractive graphics, or 'Upcoming Community Events.' Host steps back, a satisfied, knowing smirk on their face, subtly observing the TV. Faint background activity in the lounge.",
+      "continuity_notes": "Show the method working and the immediate impact. Reinforce the 'passive' aspect.",
+      "key_visual_elements": [
+        "TV displaying Trillboards content (local promos/events)",
+        "host's satisfied expression",
+        "subtle background activity (blurred)"
+      ],
+      "camera_instruction": "Wider shot showing the host and the now-active TV, demonstrating the transformation. Slight pan to emphasize the content.",
+      "lighting_notes": "Brighter as the TV content illuminates the space, still with a 'gritty' feel."
+    },
+    {
+      "scene_number": 5,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. Host pulls out their phone again, revealing the Trillboards earnings dashboard with numbers ($247, then $180 appearing). They quickly pocket a small roll of cash, then look directly at the camera, giving a confident, knowing wink and a subtle nod. The active TV is still visible in the background.",
+      "continuity_notes": "Reveal the payoff and success clearly. Reinforce the 'forbidden knowledge' aspect with the wink and confident demeanor.",
+      "key_visual_elements": [
+        "Trillboards earnings dashboard on phone",
+        "subtle cash movement/pocketing",
+        "host's direct camera address with wink/nod",
+        "active TV in background"
+      ],
+      "camera_instruction": "Close-up on phone screen for earnings reveal, then quick cut to host's face for the wink, ending on a slightly wider shot of host and TV.",
+      "lighting_notes": "Phone screen brightness highlights host's face for the reveal and final confident expression."
+    }
+  ]
+}

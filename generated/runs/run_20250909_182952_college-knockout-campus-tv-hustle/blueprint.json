@@ -1,0 +1,266 @@
+{
+  "id": "college-knockout-campus-tv-hustle",
+  "theme": "College knockout pulling $150/week off campus TVs \u2014 every clip looked like a music video, every walk a runway",
+  "avatar_style": {
+    "persona": "Campus Fashionista / Savvy Student Hustler (confident, effortlessly chic, with an air of playful rebellion)",
+    "wardrobe": "High-waisted tailored pants, a subtly branded crop top, an oversized blazer draped just right, chunky gold jewelry, and statement sneakers or sleek boots. Hair perfectly disheveled, subtle make-up that enhances natural beauty.",
+    "setting": "A sun-drenched university student lounge with modern minimalist furniture, a busy campus coffee shop with exposed brick, a chic library common area, or a stylish dorm lobby. Lighting is natural, slightly cinematic, with a clean but edgy vibe."
+  },
+  "video_spec": {
+    "duration_sec": 40,
+    "framerate": 30,
+    "aspect_ratio": "9:16"
+  },
+  "script": [
+    {
+      "t_start": 0.0,
+      "t_end": 3.0,
+      "speaker": "host",
+      "line": "You think your campus 'influencer' is making bank? Try $150 a week... just by making campus TVs look like my personal runway.",
+      "broll_cue": "Stylish 'knockout' walks confidently past a bland campus TV, then snaps her fingers. Quick cut to close-up on her face, smirk, then quick cut to money counter graphic.",
+      "on_screen_text": "$150/WEEK? ON CAMPUS TVs?"
+    },
+    {
+      "t_start": 3.0,
+      "t_end": 8.0,
+      "speaker": "host",
+      "line": "Midterms hitting harder than my bank account after tuition. Ramen for dinner? Not for this 'knockout'. I was tired of the grind.",
+      "broll_cue": "Shot of her looking slightly bored or frustrated in a stylish study nook, then glances up at a blank campus TV. Overlay of generic 'study grind' imagery.",
+      "on_screen_text": "THE GRIND WAS REAL"
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 16.0,
+      "speaker": "host",
+      "line": "Then I saw it \u2013 dead screens, everywhere. All that prime visual real estate, just sitting there, begging for a glow-up. Campus, dorms, local hangouts... an untapped goldmine.",
+      "broll_cue": "Quick montage of various blank or generic-looking campus TVs in different locations. She touches her chin thoughtfully, then pulls out her phone, a spark of an idea in her eyes.",
+      "on_screen_text": "UNTAPPED CAMPUS GOLDMINE"
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 24.0,
+      "speaker": "host",
+      "line": "This isn't about hawking energy drinks. This is about taking back the visual real estate. It's called Trillboards. And it's basically turning every campus TV into *my* channel, showcasing local art, student events, underground parties.",
+      "broll_cue": "She covertly scans a QR code on a campus TV screen with her phone, a mischievous grin. Quick cuts showing the Trillboards app interface, then a TV screen instantly populating with vibrant, cool local promos \u2013 not generic ads, but stylized event posters, student art, indie music flyers.",
+      "on_screen_text": "THE SECRET: TRILLBOARDS"
+    },
+    {
+      "t_start": 24.0,
+      "t_end": 32.0,
+      "speaker": "host",
+      "line": "And yeah, that $150 a week? That's just for putting up local offers, student sign-ups, and the occasional exclusive campus promo. All from my phone, while I'm walking to class. No awkward sales calls, no 'boss'.",
+      "broll_cue": "Close-up of her phone screen showing the Trillboards earnings dashboard with a clear '$150.00 / WEEK' total. Then, she's seen walking down a campus path, head held high, checking her phone casually, while a TV in the background displays a custom, stylish local promo she 'curated'. A subtle 'cha-ching' sound effect.",
+      "on_screen_text": "MY TV, MY PAYCHECK"
+    },
+    {
+      "t_start": 32.0,
+      "t_end": 40.0,
+      "speaker": "host",
+      "line": "So, still swiping your parents' card? Or are you ready to turn those dead screens into your next pay-day and make every walk your runway? Link in bio. Don't tell everyone.",
+      "broll_cue": "She stops, turns directly to the camera with a confident, slightly alluring stare, then winks. She pulls out a small stack of cash, fans it briefly, then tucks it into her blazer pocket. Ends with a shot of her walking away, silhouetted against a campus building, as if on a runway.",
+      "on_screen_text": "YOUR CAMPUS. YOUR CASH. \ud83e\udd2b"
+    }
+  ],
+  "caption_overlay": [
+    {
+      "t_start": 0.0,
+      "t_end": 3.0,
+      "text": "SHE'S MAKING $150/WEEK OFF CAMPUS TVs?!",
+      "emphasis_tokens": [
+        "$150/WEEK",
+        "CAMPUS TVs",
+        "?!"
+      ]
+    },
+    {
+      "t_start": 3.0,
+      "t_end": 8.0,
+      "text": "THE COLLEGE STRUGGLE IS OVER. \ud83d\ude29",
+      "emphasis_tokens": [
+        "STRUGGLE",
+        "OVER"
+      ]
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 16.0,
+      "text": "THE SECRET CAMPUS MONEY HACK NO ONE TELLS YOU.",
+      "emphasis_tokens": [
+        "SECRET",
+        "MONEY HACK"
+      ]
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 24.0,
+      "text": "TURNING BLANK SCREENS INTO A PAYDAY w/ Trillboards",
+      "emphasis_tokens": [
+        "PAYDAY",
+        "Trillboards"
+      ]
+    },
+    {
+      "t_start": 24.0,
+      "t_end": 32.0,
+      "text": "$150 EXTRA WEEKLY FOR STYLE & SAVVY.",
+      "emphasis_tokens": [
+        "$150 EXTRA",
+        "WEEKLY",
+        "SAVVY."
+      ]
+    },
+    {
+      "t_start": 32.0,
+      "t_end": 40.0,
+      "text": "OWN YOUR CAMPUS REAL ESTATE. LINK IN BIO. \ud83e\udd2b",
+      "emphasis_tokens": [
+        "OWN",
+        "REAL ESTATE",
+        "LINK IN BIO",
+        "\ud83e\udd2b"
+      ]
+    }
+  ],
+  "visual_cues": {
+    "primary": [
+      "Stylish 'runway' walks on campus",
+      "Subtle winks/smirks at camera",
+      "Phone screen activity (Trillboards app)",
+      "Transforming campus TV screens (from blank to vibrant local content)",
+      "Small stack of cash or digital earnings dashboard"
+    ],
+    "secondary": [
+      "Campus landmarks in background",
+      "QR code on TV",
+      "Hand gestures indicating 'secret' or 'money'",
+      "Minimalist and chic student lounge/cafe environment"
+    ]
+  },
+  "trillboards_touchpoints": [
+    {
+      "moment": "The Reveal",
+      "action": "Shows trillboards app interface on phone, followed by a campus TV instantly displaying curated local promos.",
+      "why_it_helps": "Monetizes dead screen time in chic campus settings, showing immediate visual transformation."
+    },
+    {
+      "moment": "The Setup",
+      "action": "A quick, confident scan of a QR code on a campus TV, making it look like a seamless, almost 'forbidden' operation.",
+      "why_it_helps": "Highlights quick, discreet setup in high-traffic student areas."
+    },
+    {
+      "moment": "The Results",
+      "action": "Close-up of the Trillboards earnings dashboard on her phone, clearly showing the '$150/WEEK' amount.",
+      "why_it_helps": "Provides concrete proof of earnings derived from the platform in a believable, theme-aligned context."
+    }
+  ],
+  "constraints_and_risks": [
+    "Maintain the edgy, provocative 'underground' vibe without promoting actual illegal activity (emphasize legitimate monetization of unused screens).",
+    "Focus on the 'local promos' and 'events' aspect over generic ads to align with the 'campus culture' and avoid overt commercialism.",
+    "Ensure the character's 'knockout' aesthetic is empowering and aspirational, not objectifying."
+  ],
+  "metrics_hypothesis": {
+    "hook_strength_guess": 9,
+    "retention_spikes_at_sec": [
+      1.5,
+      9.0,
+      25.0
+    ],
+    "shareability_notes": "Combines a viral 'money hack' trope with an aspirational 'campus knockout' archetype, strong FOMO, anti-establishment undertones (taking back real estate), and a visually appealing 'music video' aesthetic. The 'don't tell everyone' line creates exclusivity."
+  },
+  "variants": {
+    "alt_hooks": [
+      "Your tuition money just bought me a new bag. How? Campus TVs.",
+      "I turned campus screens into my ATM. No, seriously. $150/week.",
+      "They call me a knockout. I call myself a screen mogul. $150 easy."
+    ],
+    "alt_pacing": [
+      "money_first_method_second (starts with earnings, then backstory)",
+      "struggle_story_then_revelation (classic hero's journey)",
+      "controversy_then_proof (provocative claim, then demonstrate legitimacy)"
+    ]
+  },
+  "rights_and_clearance_notes": "Focus on legitimate unused screen monetization of *publicly accessible* TVs. Emphasize obtaining proper permissions from venue owners/campus authorities for Trillboards use, even if implied as a 'secret hack' for dramatic effect.",
+  "scene_breakdown": [
+    {
+      "scene_number": 1,
+      "duration_sec": 8,
+      "scene_type": "text_to_video",
+      "prompt_text": "Opening shot: A confident, stylish 'college knockout' (female) in a chic blazer and crop top, walks through a sun-drenched university student lounge. Her walk is deliberate, like a runway. She glances at a large, blank campus TV. Her expression is a mix of boredom and cunning. Cut to a quick close-up of her face, a smirk playing on her lips, as digital numbers '$150' flash quickly over her eye.",
+      "continuity_notes": "Establish the 'music video' aesthetic and the character's persona immediately. The blank TV introduces the problem.",
+      "key_visual_elements": [
+        "Stylish female protagonist",
+        "Modern university lounge/hallway",
+        "Large, blank campus TV screen",
+        "Slow-motion 'runway' walk",
+        "Cinematic lighting (golden hour vibe)",
+        "Subtle money VFX overlay"
+      ],
+      "camera_instruction": "Starts with a wide, tracking shot following her, then quick cuts to close-ups, ending on her smirking face.",
+      "lighting_notes": "Bright, airy, natural light, slightly warm and cinematic."
+    },
+    {
+      "scene_number": 2,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Transition: The 'knockout' sitting bored in a stylish, slightly busy campus cafe. She scrolls aimlessly on her phone, then looks up, noticing another generic campus TV displaying outdated notices. Her expression shifts from boredom to a sudden realization, a lightbulb moment. She looks at her phone, then back at the TV, a mischievous glint in her eye.",
+      "continuity_notes": "Shift from 'struggle' to 'idea'. Emphasize the ubiquitous presence of 'dead' screens.",
+      "key_visual_elements": [
+        "Campus cafe setting (trendy, clean)",
+        "Protagonist looking thoughtful/frustrated",
+        "Generic, unengaging content on campus TV",
+        "Sudden 'aha!' moment expressed through facial change and eye movement",
+        "Phone in hand"
+      ],
+      "camera_instruction": "Medium shot of her, then a cut to her POV of the TV, then back to a close-up of her face as the idea forms.",
+      "lighting_notes": "Consistent with scene 1, but maybe slightly warmer, cozier cafe lighting."
+    },
+    {
+      "scene_number": 3,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Action: The 'knockout' approaches a campus TV in a semi-secluded student common area. She subtly and confidently pulls out her phone, navigates the Trillboards app (showing a clean, intuitive interface), and with a quick, almost covert motion, scans a QR code that appears on the TV. The TV instantly flickers and begins to display vibrant, custom local promos \u2013 a cool student art exhibit, a campus music festival, a local indie coffee shop offer.",
+      "continuity_notes": "Show the 'secret' setup process. The transformation of the TV is key.",
+      "key_visual_elements": [
+        "Campus common area (modern, clean, minimal foot traffic)",
+        "QR code briefly displayed on TV",
+        "Trillboards app interface on phone (UI design is sleek)",
+        "Protagonist's confident, almost stealthy movements",
+        "TV transforming from blank/generic to lively, curated content"
+      ],
+      "camera_instruction": "Dynamic shot from her perspective as she scans, then a wider shot showing the TV change. Use quick cuts.",
+      "lighting_notes": "Crisp, clear lighting to highlight the screen and phone interaction."
+    },
+    {
+      "scene_number": 4,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Validation: The 'knockout' walks past several campus TVs (different locations if possible \u2013 library, student union), each now proudly displaying the vibrant, curated local content. She barely glances at them, a knowing, satisfied smirk on her face, as if it's her own personal broadcast network. Her walk is still a 'runway' walk, confident and effortless.",
+      "continuity_notes": "Show the widespread impact and the protagonist's ownership of the 'channels'. Reinforce the 'runway' aesthetic.",
+      "key_visual_elements": [
+        "Multiple campus TVs showing Trillboards content (various local promos/events)",
+        "Protagonist walking by, appearing nonchalant but satisfied",
+        "Dynamic camera following her, emphasizing her 'runway' walk",
+        "Other students casually looking at the screens, implying engagement"
+      ],
+      "camera_instruction": "Tracking shot following her, panning to show the TVs. Use slow-motion for the 'runway' effect.",
+      "lighting_notes": "Bright and confident, highlighting the vibrancy of the screens."
+    },
+    {
+      "scene_number": 5,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Payoff & CTA: Close-up of the 'knockout's' phone screen, displaying the Trillboards earnings dashboard with a clear '$150.00 / WEEK' total. She looks up, directly at the camera, a confident, slightly provocative smile. She subtly folds a small wad of cash (like five $20s) and tucks it into her blazer pocket. Ends with her giving a playful wink and then walking away, silhouette against a campus building, the walk still a runway.",
+      "continuity_notes": "Conclude with the financial proof and a strong, branded call to action.",
+      "key_visual_elements": [
+        "Clear Trillboards earnings dashboard on phone with '$150.00 / WEEK'",
+        "Protagonist looking directly at camera, confident and inviting",
+        "Small stack of physical cash",
+        "Playful wink",
+        "Campus building silhouette",
+        "Runway walk out of frame"
+      ],
+      "camera_instruction": "Starts with a tight close-up on the phone, then slowly pulls back to a medium shot of her, ending with a wide shot of her walking away.",
+      "lighting_notes": "Slightly dramatic, focused on her face and the phone glow, ending with an almost silhouetted, powerful exit."
+    }
+  ]
+}

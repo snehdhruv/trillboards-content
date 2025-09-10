@@ -14,8 +14,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent))
 
 from scripts.veo_chain_generator import VEOChainGenerator
-from scripts.moviepy_pipeline import MoviePyPipeline
-from scripts.ffmpeg_pipeline import FFmpegPipeline
+from scripts.moviepy_crossfade_pipeline import MoviePyCrossfadePipeline
 from scripts.generate_trillboards_videos import generate_video_blueprint
 from config.settings import GENERATED_DIR, SIDE_HUSTLE_THEMES, VIRAL_ALTERNATIVE_THEMES
 
@@ -29,8 +28,8 @@ def run_complete_pipeline(blueprint_id=None, theme_index=None):
     print("🎬 COMPLETE TRILLBOARDS VIDEO PIPELINE")
     print("=" * 60)
     print("🔄 Fresh VEO generation with enhanced dialogue prompts")
-    print("🎞️ FFmpeg stitching with SMOOTH CROSSFADE TRANSITIONS")
-    print("📝 MoviePy text overlays with ZERO CUTOFF (artsy lyrics approach)")
+    print("🎞️ MoviePy stitching with SMOOTH CROSSFADE TRANSITIONS")
+    print("📝 Integrated text overlays with ZERO CUTOFF (artsy lyrics approach)")
     print("📁 ORGANIZED FILE STRUCTURE - No more mess!")
     
     # Create organized directory structure
@@ -183,39 +182,26 @@ def run_complete_pipeline(blueprint_id=None, theme_index=None):
     for i, scene_file in enumerate(scene_files, 1):
         print(f"   Scene {i}: {Path(scene_file).name}")
     
-    # Step 3: Stitch with FFmpeg for smooth transitions, then add text overlays with MoviePy
-    print(f"\n🎞️ Step 3: FFmpeg stitching with smooth crossfades...")
+    # Step 3: Complete MoviePy pipeline with crossfades and text overlays
+    print(f"\n🎞️ Step 3: MoviePy complete pipeline (crossfades + text overlays)...")
     
-    # Initialize FFmpeg pipeline with organized output directory
-    ffmpeg_pipeline = FFmpegPipeline(output_dir=str(run_dir))
+    # Initialize MoviePy crossfade pipeline with organized output directory
+    moviepy_pipeline = MoviePyCrossfadePipeline(output_dir=str(run_dir))
     
-    # Stitch scenes with smooth transitions (no text overlays yet)
-    stitched_video = ffmpeg_pipeline.stitch_scenes(scene_files, blueprint)
-    
-    if not stitched_video:
-        print("❌ FFmpeg stitching failed")
-        return None
-    
-    print(f"✅ FFmpeg stitching complete: {stitched_video}")
-    
-    # Step 4: Add text overlays with MoviePy (using artsy lyrics approach)
-    print(f"\n📝 Step 4: Adding text overlays with zero cutoff...")
-    
-    # Initialize MoviePy pipeline for text overlays only
-    moviepy_pipeline = MoviePyPipeline(output_dir=str(run_dir))
-    
-    # Add text overlays to the stitched video
-    final_video = moviepy_pipeline.add_text_overlays_to_video(stitched_video, blueprint)
+    # Process scenes with crossfades and text overlays in one step
+    final_video = moviepy_pipeline.crossfade_scenes(scene_files, blueprint)
     
     if not final_video:
-        print("❌ Text overlay addition failed")
+        print("❌ MoviePy complete pipeline failed")
         return None
     
-    # Step 5: Create thumbnail (already in organized structure)
-    thumbnail = moviepy_pipeline.create_preview_thumbnail(final_video)
+    print(f"✅ MoviePy complete pipeline finished: {final_video}")
     
-    # Step 6: Create run metadata
-    print(f"\n📋 Step 6: Creating run metadata...")
+    # Step 4: Create thumbnail (already in organized structure)
+    thumbnail = None  # MoviePyCrossfadePipeline doesn't have thumbnail creation yet
+    
+    # Step 5: Create run metadata
+    print(f"\n📋 Step 5: Creating run metadata...")
     
     metadata = {
         "run_id": run_name,
@@ -251,7 +237,8 @@ def run_complete_pipeline(blueprint_id=None, theme_index=None):
     print(f"✅ Generated directory structure is organized")
     print(f"✅ Fresh VEO scenes with frame continuity in scenes/")
     print(f"✅ Enhanced prompts with dialogue from blueprint")
-    print(f"✅ Professional MoviePy text overlays (no cutoff) in finals/")
+    print(f"✅ MoviePy crossfades with smooth transitions")
+    print(f"✅ Professional text overlays (zero cutoff) integrated")
     print(f"✅ Frame extractions organized in frames/")
     print(f"✅ Blueprint archived with metadata")
     

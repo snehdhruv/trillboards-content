@@ -27,30 +27,37 @@ def setup_logging():
     return log_file
 
 def generate_video_blueprint(theme, model_name="gemini-2.5-flash"):
-    """Generate a single video blueprint using Vertex AI Gemini"""
+    """Generate a single video blueprint using Vertex AI Gemini with DYNAMIC theme-aware content"""
     
     prompt = f"""
     {TRILLBOARDS_CONTEXT}
     
-    Generate a VIRAL, provocative video with this controversial theme: "{theme}"
+    Generate a VIRAL, provocative video based on this EXACT theme: "{theme}"
+    
+    CRITICAL REQUIREMENTS:
+    1. EXTRACT character archetype, wardrobe, and setting directly from the theme
+    2. CREATE script lines that match the theme's specific persona and scenario
+    3. AVOID generic templates - make everything theme-specific
+    4. MAINTAIN the sexy, provocative energy from the theme
     
     Create SCROLL-STOPPING content with:
     - OUTRAGEOUS hook in first 2 seconds (numbers, shock, controversy)
-    - Underground economy / rebellion angle
+    - Underground economy / rebellion angle  
     - "Forbidden knowledge" storytelling
     - Specific dollar amounts that sound believable but exciting
     - FOMO triggers and exclusivity
     - Anti-establishment undertones
     - Raw, authentic struggle-to-success narrative
     
-    Follow this exact JSON structure:
+    Generate a complete JSON blueprint that captures the ESSENCE of this theme:
+    
     {{
-        "id": "unique-identifier",
+        "id": "unique-identifier-based-on-theme",
         "theme": "{theme}",
         "avatar_style": {{
-            "persona": "Rebellious, street-smart character who discovered underground money-making method",
-            "wardrobe": "Casual, relatable clothing that signals 'regular person who cracked the code'",
-            "setting": "Gritty, authentic workplace setting - dim lighting, real environment not staged"
+            "persona": "CHARACTER ARCHETYPE from theme (runway model, gym influencer, bartender, office worker, etc.) who discovered underground money method",
+            "wardrobe": "SPECIFIC CLOTHING from theme (elegant dress, crop top, lingerie under blazer, bar uniform, etc.)",
+            "setting": "ENVIRONMENT from theme (lounge, gym, bar, office, restaurant, etc.) with appropriate lighting and atmosphere"
         }},
         "video_spec": {{
             "duration_sec": 40,
@@ -58,99 +65,96 @@ def generate_video_blueprint(theme, model_name="gemini-2.5-flash"):
             "aspect_ratio": "9:16"
         }},
         "script": [
-            {{"t_start": 0.0, "t_end": 3.0, "speaker": "host", "line": "SHOCKING HOOK with specific dollar amount + controversy", "broll_cue": "dramatic reveal of money/screen", "on_screen_text": "VIRAL HOOK"}},
-            {{"t_start": 3.0, "t_end": 8.0, "speaker": "host", "line": "I was struggling until I discovered this loophole", "broll_cue": "authentic struggle story", "on_screen_text": "THE STRUGGLE"}},
-            {{"t_start": 8.0, "t_end": 16.0, "speaker": "host", "line": "Here's exactly how I hack dead TV screens for money", "broll_cue": "showing the method", "on_screen_text": "THE METHOD"}},
-            {{"t_start": 16.0, "t_end": 24.0, "speaker": "host", "line": "Most people don't know you can monetize workplace TVs", "broll_cue": "demonstrating trillboards", "on_screen_text": "SECRET REVEALED"}},
-            {{"t_start": 24.0, "t_end": 32.0, "speaker": "host", "line": "I'm making $X per week and my boss has no idea", "broll_cue": "counting money secretly", "on_screen_text": "RESULTS"}},
-            {{"t_start": 32.0, "t_end": 40.0, "speaker": "host", "line": "Only works if you have access to screens - but if you do...", "broll_cue": "call to action", "on_screen_text": "YOUR TURN"}}
+            {{"t_start": 0.0, "t_end": 3.0, "speaker": "host", "line": "THEME-SPECIFIC HOOK with money amount and controversy", "broll_cue": "dramatic reveal matching theme setting", "on_screen_text": "VIRAL HOOK"}},
+            {{"t_start": 3.0, "t_end": 8.0, "speaker": "host", "line": "THEME-SPECIFIC struggle story", "broll_cue": "authentic struggle in theme environment", "on_screen_text": "THE STRUGGLE"}},
+            {{"t_start": 8.0, "t_end": 16.0, "speaker": "host", "line": "THEME-SPECIFIC method explanation", "broll_cue": "showing method in theme setting", "on_screen_text": "THE METHOD"}},
+            {{"t_start": 16.0, "t_end": 24.0, "speaker": "host", "line": "THEME-SPECIFIC secret revelation", "broll_cue": "demonstrating trillboards in theme context", "on_screen_text": "SECRET REVEALED"}},
+            {{"t_start": 24.0, "t_end": 32.0, "speaker": "host", "line": "THEME-SPECIFIC earnings reveal", "broll_cue": "counting money in theme setting", "on_screen_text": "RESULTS"}},
+            {{"t_start": 32.0, "t_end": 40.0, "speaker": "host", "line": "THEME-SPECIFIC call to action", "broll_cue": "theme-appropriate closing", "on_screen_text": "YOUR TURN"}}
         ],
         "caption_overlay": [
-            {{"t_start": 0.0, "t_end": 3.0, "text": "Made $XXX doing THIS at work", "emphasis_tokens": ["$XXX", "THIS"]}},
-            {{"t_start": 3.0, "t_end": 8.0, "text": "They still don't know...", "emphasis_tokens": ["don't", "know"]}},
-            {{"t_start": 8.0, "t_end": 16.0, "text": "Underground TV money method", "emphasis_tokens": ["Underground", "money"]}},
-            {{"t_start": 16.0, "t_end": 24.0, "text": "Your boss won't tell you this", "emphasis_tokens": ["boss", "won't"]}},
-            {{"t_start": 24.0, "t_end": 32.0, "text": "$XXX/week EXTRA income", "emphasis_tokens": ["$XXX/week", "EXTRA"]}},
-            {{"t_start": 32.0, "t_end": 40.0, "text": "Works with ANY workplace TV", "emphasis_tokens": ["ANY", "workplace"}}
+            {{"t_start": 0.0, "t_end": 3.0, "text": "THEME-SPECIFIC viral caption", "emphasis_tokens": ["money", "theme-keyword"]}},
+            {{"t_start": 3.0, "t_end": 8.0, "text": "THEME-SPECIFIC secret caption", "emphasis_tokens": ["secret", "theme-keyword"]}},
+            {{"t_start": 8.0, "t_end": 16.0, "text": "THEME-SPECIFIC method caption", "emphasis_tokens": ["method", "theme-keyword"]}},
+            {{"t_start": 16.0, "t_end": 24.0, "text": "THEME-SPECIFIC revelation caption", "emphasis_tokens": ["secret", "revealed"]}},
+            {{"t_start": 24.0, "t_end": 32.0, "text": "THEME-SPECIFIC earnings caption", "emphasis_tokens": ["money", "EXTRA"]}},
+            {{"t_start": 32.0, "t_end": 40.0, "text": "THEME-SPECIFIC action caption", "emphasis_tokens": ["theme-keyword", "NOW"]}}
         ],
         "visual_cues": {{
-            "primary": ["money counting", "secret phone usage", "TV screen transformations", "workplace settings"],
-            "secondary": ["QR codes", "app interface", "cash/payments", "stealth operations"]
+            "primary": ["money counting", "secret phone usage", "TV screen transformations", "THEME-SPECIFIC setting elements"],
+            "secondary": ["QR codes", "app interface", "cash/payments", "THEME-SPECIFIC props"]
         }},
         "trillboards_touchpoints": [
-            {{"moment": "The Reveal", "action": "Shows trillboards app secretly", "why_it_helps": "Monetizes dead screen time"}},
-            {{"moment": "The Setup", "action": "QR code scan on workplace TV", "why_it_helps": "Takes 30 seconds to set up passive income"}},
-            {{"moment": "The Results", "action": "Shows earnings dashboard", "why_it_helps": "Proof of concept with real numbers"}}
+            {{"moment": "The Reveal", "action": "Shows trillboards app in theme context", "why_it_helps": "Monetizes dead screen time in theme setting"}},
+            {{"moment": "The Setup", "action": "QR code scan in theme environment", "why_it_helps": "Quick setup in theme-appropriate location"}},
+            {{"moment": "The Results", "action": "Shows earnings dashboard in theme context", "why_it_helps": "Proof of concept with theme-specific validation"}}
         ],
-        "constraints_and_risks": ["Keep it legal but edgy", "Don't encourage actual rule-breaking", "Focus on unused/dead screen time"],
+        "constraints_and_risks": ["Keep it legal but edgy", "Focus on theme-appropriate unused screen monetization", "Maintain theme's provocative energy"],
         "metrics_hypothesis": {{
             "hook_strength_guess": 9,
             "retention_spikes_at_sec": [1.0, 8.0, 24.0],
-            "shareability_notes": "Controversial angle + specific money claims + FOMO"
+            "shareability_notes": "Theme-specific controversy + money claims + FOMO + theme archetype appeal"
         }},
         "variants": {{
-            "alt_hooks": ["I made $XXX this month and my boss is clueless", "This side hustle only works if you have TV access", "Your workplace is sitting on money and doesn't know it"],
+            "alt_hooks": ["THEME-SPECIFIC hook variant 1", "THEME-SPECIFIC hook variant 2", "THEME-SPECIFIC hook variant 3"],
             "alt_pacing": ["money_first_method_second", "struggle_story_then_revelation", "controversy_then_proof"]
         }},
-        "rights_and_clearance_notes": "Edgy but legal content - focus on legitimate unused screen monetization",
+        "rights_and_clearance_notes": "Theme-appropriate edgy but legal content - focus on legitimate unused screen monetization",
         "scene_breakdown": [
             {{
                 "scene_number": 1,
                 "duration_sec": 8,
                 "scene_type": "text_to_video",
-                "prompt_text": "Dramatic close-up of a person in dim workplace lighting, counting cash secretly with a shocked/excited expression, TV screen glowing in background",
-                "continuity_notes": "Establish the underground/secret money-making vibe with dramatic lighting",
-                "key_visual_elements": ["cash money", "workplace TV", "secretive atmosphere", "authentic person"],
-                "camera_instruction": "Close-up handheld style, slight shake for authenticity",
-                "lighting_notes": "Dim, dramatic lighting with TV glow"
+                "prompt_text": "THEME-SPECIFIC dramatic scene 1 with character in theme setting",
+                "continuity_notes": "Establish theme atmosphere and character archetype",
+                "key_visual_elements": ["cash money", "theme-specific TV location", "theme atmosphere", "character archetype"],
+                "camera_instruction": "Theme-appropriate camera style",
+                "lighting_notes": "Theme-appropriate lighting and mood"
             }},
             {{
                 "scene_number": 2,
                 "duration_sec": 8,
                 "scene_type": "image_to_video",
-                "prompt_text": "Continue from last frame. Person looks around cautiously then pulls out phone, starts opening trillboards app with sneaky movements",
-                "continuity_notes": "Maintain secretive atmosphere and character",
-                "key_visual_elements": ["phone usage", "cautious movements", "app interface"],
-                "camera_instruction": "Over shoulder shot of phone screen",
-                "lighting_notes": "Same dim lighting with phone screen glow"
+                "prompt_text": "Continue from scene 1 - THEME-SPECIFIC action with phone/app",
+                "continuity_notes": "Maintain theme atmosphere and character",
+                "key_visual_elements": ["phone usage", "theme-specific movements", "app interface"],
+                "camera_instruction": "Theme-appropriate camera movement",
+                "lighting_notes": "Consistent theme lighting with phone glow"
             }},
             {{
                 "scene_number": 3,
                 "duration_sec": 8,
-                "scene_type": "image_to_video", 
-                "prompt_text": "Continue from last frame. TV screen transforms showing QR code, person scans it quickly while looking around to make sure nobody sees",
-                "continuity_notes": "Build tension of secret operation",
-                "key_visual_elements": ["QR code on TV", "scanning action", "stealth behavior"],
-                "camera_instruction": "Quick cuts between phone and TV screen",
-                "lighting_notes": "TV brightness illuminates face dramatically"
+                "scene_type": "image_to_video",
+                "prompt_text": "Continue - THEME-SPECIFIC QR code setup in theme environment",
+                "continuity_notes": "Build tension of secret operation in theme context",
+                "key_visual_elements": ["QR code on TV", "scanning action", "theme-specific stealth behavior"],
+                "camera_instruction": "Theme-appropriate quick cuts",
+                "lighting_notes": "TV brightness in theme environment"
             }},
             {{
                 "scene_number": 4,
                 "duration_sec": 8,
                 "scene_type": "image_to_video",
-                "prompt_text": "Continue from last frame. Person sets up rotating ads on TV screen, content starts displaying, they step back with satisfied smile",
-                "continuity_notes": "Show the method working",
-                "key_visual_elements": ["TV displaying ads", "satisfied expression", "setup complete"],
-                "camera_instruction": "Wide shot showing full TV and person",
-                "lighting_notes": "Brighter as TV content illuminates space"
+                "prompt_text": "Continue - THEME-SPECIFIC success demonstration",
+                "continuity_notes": "Show method working in theme setting",
+                "key_visual_elements": ["TV displaying ads", "theme-specific satisfaction", "setup complete"],
+                "camera_instruction": "Theme-appropriate wide shots",
+                "lighting_notes": "Brighter theme environment with TV content"
             }},
             {{
                 "scene_number": 5,
                 "duration_sec": 8,
                 "scene_type": "image_to_video",
-                "prompt_text": "Continue from last frame. Person checks earnings on phone app, shows growing numbers, then pockets money with a wink to camera",
-                "continuity_notes": "Reveal the payoff and success",
-                "key_visual_elements": ["earnings dashboard", "money/cash", "direct camera address"],
-                "camera_instruction": "Close-up on phone then face for wink",
-                "lighting_notes": "Phone screen brightness on face for reveal"
+                "prompt_text": "Continue - THEME-SPECIFIC earnings reveal and conclusion",
+                "continuity_notes": "Reveal payoff in theme context",
+                "key_visual_elements": ["earnings dashboard", "theme-specific money/cash", "direct camera address"],
+                "camera_instruction": "Theme-appropriate close-up finale",
+                "lighting_notes": "Phone screen brightness on character face"
             }}
         ]
     }}
     
-    CRITICAL: Make this VIRAL and PROVOCATIVE. Use specific dollar amounts ($247, $180, $60) that are believable but exciting.
-    Focus on underground economy, rebellion against corporate systems, secret knowledge.
-    Create FOMO around TV access - "only works if you have access to screens".
-    Make it feel forbidden and exclusive while staying technically legal.
+    CRITICAL: Every element must reflect the specific theme's character, setting, and scenario. No generic content!
     """
     
     try:
@@ -182,92 +186,6 @@ def generate_video_blueprint(theme, model_name="gemini-2.5-flash"):
     except Exception as e:
         print(f"❌ Error generating blueprint for {theme}: {e}")
         return None
-
-def generate_video_with_veo(blueprint, model_name="veo-3.0-generate-preview"):
-    """Generate actual video using VEO-3 model with proper API"""
-    
-    # Create a detailed prompt for video generation from the blueprint
-    script_text = " ".join([segment["line"] for segment in blueprint["script"]])
-    visual_cues = ", ".join(blueprint["visual_cues"]["primary"])
-    
-    video_prompt = f"""
-    Create a {blueprint["video_spec"]["duration_sec"]}-second vertical video (9:16 aspect ratio) featuring:
-    
-    Setting: {blueprint["avatar_style"]["setting"]}
-    Character: {blueprint["avatar_style"]["persona"]} wearing {blueprint["avatar_style"]["wardrobe"]}
-    
-    Visual elements: {visual_cues}
-    
-    Action: {script_text}
-    
-    Style: Authentic, documentary-like, casual phone recording. Show real workplace scenarios with natural lighting.
-    Camera: Vertical phone recording, jump cuts, close-ups on screens showing QR codes and digital displays.
-    
-    Make it look like an authentic side-hustle tutorial filmed by someone sharing their real experience.
-    """
-    
-    # Negative prompt to avoid unwanted elements
-    negative_prompt = "blurry, low quality, fake, staged, overly professional, studio lighting, brand logos, copyrighted material"
-    
-    try:
-        print(f"🎬 Generating {blueprint['video_spec']['duration_sec']}-second video with VEO-3...")
-        print(f"📝 Prompt: {video_prompt[:100]}...")
-        
-        client = genai_client.Client()
-        
-        # Generate video using VEO-3
-        operation = client.models.generate_videos(
-            model=model_name,
-            prompt=video_prompt,
-            config=types.GenerateVideosConfig(
-                negative_prompt=negative_prompt,
-            ),
-        )
-        
-        print(f"🔄 Video generation started. Operation ID: {operation.name}")
-        
-        # Poll for completion
-        max_wait_time = 600  # 10 minutes max wait
-        poll_interval = 20   # Check every 20 seconds
-        elapsed_time = 0
-        
-        while not operation.done and elapsed_time < max_wait_time:
-            print(f"⏳ Generating video... ({elapsed_time}s elapsed)")
-            time.sleep(poll_interval)
-            elapsed_time += poll_interval
-            operation = client.operations.get(operation)
-        
-        if not operation.done:
-            print(f"⏰ Timeout after {max_wait_time}s. Video generation may still be processing.")
-            return {"status": "timeout", "operation": operation}
-        
-        if operation.result and operation.result.generated_videos:
-            generated_video = operation.result.generated_videos[0]
-            print(f"✅ Video generated successfully!")
-            
-            # Save video file
-            video_filename = f"{blueprint['id']}_video.mp4"
-            video_path = GENERATED_DIR / video_filename
-            
-            # Download the video
-            client.files.download(file=generated_video.video)
-            generated_video.video.save(str(video_path))
-            
-            print(f"💾 Video saved: {video_path}")
-            
-            return {
-                "status": "success",
-                "video_path": video_path,
-                "video_file": generated_video.video,
-                "operation": operation
-            }
-        else:
-            print("❌ No video generated in operation result")
-            return {"status": "error", "message": "No video in result", "operation": operation}
-        
-    except Exception as e:
-        print(f"❌ Error generating video with VEO: {e}")
-        return {"status": "error", "message": str(e)}
 
 def save_blueprint(blueprint, output_dir):
     """Save blueprint to JSON file"""
