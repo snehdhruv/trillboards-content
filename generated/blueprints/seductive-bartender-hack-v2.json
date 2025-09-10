@@ -1,0 +1,247 @@
+{
+  "id": "seductive-bartender-hack-v2",
+  "theme": "Seductive bartender turned slow Tuesdays into $60 \u2014 neon lights, smoky eyes, TV glowing like a boudoir set",
+  "avatar_style": {
+    "persona": "Rebellious, street-smart character who discovered underground money-making method",
+    "wardrobe": "Casual, relatable clothing that signals 'regular person who cracked the code'",
+    "setting": "Gritty, authentic workplace setting - dim lighting, real environment not staged"
+  },
+  "video_spec": {
+    "duration_sec": 40,
+    "framerate": 30,
+    "aspect_ratio": "9:16"
+  },
+  "script": [
+    {
+      "t_start": 0.0,
+      "t_end": 3.0,
+      "speaker": "host",
+      "line": "They said I couldn't make money off dead air. Last Tuesday? $60. Cash.",
+      "broll_cue": "dramatic reveal of money in hand, TV glowing in background",
+      "on_screen_text": "I Made $60 on a Tuesday?!"
+    },
+    {
+      "t_start": 3.0,
+      "t_end": 8.0,
+      "speaker": "host",
+      "line": "This place was dead. Slow Tuesdays killed me. I was making barely enough for gas, just waiting for my shift to end.",
+      "broll_cue": "authentic struggle story, bored/tired look, empty bar/venue",
+      "on_screen_text": "The Dead Shift Grind"
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 16.0,
+      "speaker": "host",
+      "line": "Then I found it. This loophole. Most places have these dead screens, right? What if... what if you could turn that into a money printer?",
+      "broll_cue": "showing the method - phone coming out, looking at a blank TV",
+      "on_screen_text": "The Underground TV Hack"
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 24.0,
+      "speaker": "host",
+      "line": "My boss thinks this TV just plays sports. He has NO idea I'm running an entire underground economy on it. Local spots, artists, even the bakery down the street? They pay for screen time.",
+      "broll_cue": "demonstrating trillboards setup with QR scan, then TV displaying local promos",
+      "on_screen_text": "Your Boss's Secret Cash Cow"
+    },
+    {
+      "t_start": 24.0,
+      "t_end": 32.0,
+      "speaker": "host",
+      "line": "That $60 on Tuesday? Rookie numbers. Last month, I pulled in an extra $247. This week, looking at $180 just from this one spot. And my boss? Still clueless.",
+      "broll_cue": "counting money secretly, quick glimpse of a Trillboards earnings dashboard mock-up",
+      "on_screen_text": "Untapped $ for You"
+    },
+    {
+      "t_start": 32.0,
+      "t_end": 40.0,
+      "speaker": "host",
+      "line": "This isn't for everyone. You need access to a TV screen. But if you're like me, with a dead screen staring back at you... you're sitting on a goldmine. The system won't tell you this.",
+      "broll_cue": "call to action, conspiratorial whisper to camera, TV glowing with content",
+      "on_screen_text": "Unlock Your TV Money"
+    }
+  ],
+  "caption_overlay": [
+    {
+      "t_start": 0.0,
+      "t_end": 3.0,
+      "text": "Made $60 on a dead Tuesday doing THIS",
+      "emphasis_tokens": [
+        "$60",
+        "THIS"
+      ]
+    },
+    {
+      "t_start": 3.0,
+      "t_end": 8.0,
+      "text": "My boss has NO idea...",
+      "emphasis_tokens": [
+        "NO",
+        "idea"
+      ]
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 16.0,
+      "text": "This TV is a cash machine",
+      "emphasis_tokens": [
+        "cash",
+        "machine"
+      ]
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 24.0,
+      "text": "They don't want you to know",
+      "emphasis_tokens": [
+        "don't",
+        "know"
+      ]
+    },
+    {
+      "t_start": 24.0,
+      "t_end": 32.0,
+      "text": "$247 last month, EASY",
+      "emphasis_tokens": [
+        "$247",
+        "EASY"
+      ]
+    },
+    {
+      "t_start": 32.0,
+      "t_end": 40.0,
+      "text": "Your workplace TV? GOLDMINE.",
+      "emphasis_tokens": [
+        "GOLDMINE"
+      ]
+    }
+  ],
+  "visual_cues": {
+    "primary": [
+      "money counting",
+      "secret phone usage",
+      "TV screen transformations",
+      "workplace settings"
+    ],
+    "secondary": [
+      "QR codes",
+      "app interface",
+      "cash/payments",
+      "stealth operations"
+    ]
+  },
+  "trillboards_touchpoints": [
+    {
+      "moment": "The Reveal",
+      "action": "Shows trillboards app secretly",
+      "why_it_helps": "Monetizes dead screen time"
+    },
+    {
+      "moment": "The Setup",
+      "action": "QR code scan on workplace TV",
+      "why_it_helps": "Takes 30 seconds to set up passive income"
+    },
+    {
+      "moment": "The Results",
+      "action": "Shows earnings dashboard",
+      "why_it_helps": "Proof of concept with real numbers"
+    }
+  ],
+  "constraints_and_risks": [
+    "Keep it legal but edgy",
+    "Don't encourage actual rule-breaking",
+    "Focus on unused/dead screen time"
+  ],
+  "metrics_hypothesis": {
+    "hook_strength_guess": 9,
+    "retention_spikes_at_sec": [
+      1.0,
+      8.0,
+      24.0
+    ],
+    "shareability_notes": "Controversial angle + specific money claims + FOMO"
+  },
+  "variants": {
+    "alt_hooks": [
+      "I made $247 this month and my boss is clueless",
+      "This side hustle only works if you have TV access",
+      "Your workplace is sitting on money and doesn't know it"
+    ],
+    "alt_pacing": [
+      "money_first_method_second",
+      "struggle_story_then_revelation",
+      "controversy_then_proof"
+    ]
+  },
+  "rights_and_clearance_notes": "Edgy but legal content - focus on legitimate unused screen monetization",
+  "scene_breakdown": [
+    {
+      "scene_number": 1,
+      "duration_sec": 8,
+      "scene_type": "text_to_video",
+      "prompt_text": "Dramatic close-up of a person in a dim, slightly gritty bar/workplace setting, looking bored and tired. They then subtly pull out a small wad of cash and count it with a shocked/excited expression. A glowing, slightly out-of-focus TV screen is visible in the background.",
+      "continuity_notes": "Establish the struggle and then the glimpse of secret money. Maintain low-key, authentic setting.",
+      "key_visual_elements": [
+        "cash money",
+        "workplace TV",
+        "secretive atmosphere",
+        "authentic person"
+      ],
+      "camera_instruction": "Close-up, handheld style, slight shake for authenticity."
+    },
+    {
+      "scene_number": 2,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. Person looks around cautiously, pulls out their phone. Close-up on their face, a sly, rebellious smile. Then a quick shot of them opening a sleek, minimalist app (representing Trillboards) on their phone.",
+      "continuity_notes": "Maintain secretive atmosphere, focus on the phone as the tool for the 'hack'.",
+      "key_visual_elements": [
+        "phone usage",
+        "cautious movements",
+        "app interface"
+      ],
+      "camera_instruction": "Over-shoulder shot focusing on the phone screen, then quick cut to the person's expressive face."
+    },
+    {
+      "scene_number": 3,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The TV screen in the bar/workplace suddenly displays a dynamic QR code. The person quickly, almost furtively, scans it with their phone, glancing around as if avoiding detection. Immediately after, the TV screen transforms, showing vibrant, rotating 'local promos' content.",
+      "continuity_notes": "Build tension of secret operation, show immediate, effortless transformation of the TV.",
+      "key_visual_elements": [
+        "QR code on TV",
+        "scanning action",
+        "stealth behavior",
+        "TV displaying dynamic content"
+      ],
+      "camera_instruction": "Quick cuts between the phone and TV, with close-ups on the QR scan process."
+    },
+    {
+      "scene_number": 4,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The person is now relaxed, a confident, slightly mischievous smirk on their face. Close-up on their phone screen showing a mock Trillboards earnings dashboard with increasing numbers ($60, then $180, then $247). They discreetly pocket a wad of cash, looking directly at the camera with a knowing wink.",
+      "continuity_notes": "Reveal the payoff and success, break the fourth wall for intimacy and exclusivity.",
+      "key_visual_elements": [
+        "earnings dashboard on phone",
+        "money/cash",
+        "direct camera address",
+        "confident smirk"
+      ],
+      "camera_instruction": "Close-up on the phone screen then a quick, confident move to the face for the wink."
+    },
+    {
+      "scene_number": 5,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The person gestures broadly towards the now-active TV screen, which is displaying various attractive local offers and events. They lean in conspiratorially, as if sharing a huge secret. The final shot is a confident, slightly defiant look towards the camera, with the active TV in the background.",
+      "continuity_notes": "End on a high note of opportunity and exclusivity, reinforce the 'forbidden knowledge' aspect.",
+      "key_visual_elements": [
+        "TV displaying local offers",
+        "conspiratorial gesture",
+        "defiant look"
+      ],
+      "camera_instruction": "Wide shot showing the person and the active TV, then a final close-up on the person's face for the conspiratorial lean."
+    }
+  ]
+}

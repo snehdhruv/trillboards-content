@@ -1,0 +1,275 @@
+{
+  "id": "trillboards-slow-night-hustle",
+  "theme": "Bar staff upsell + local promos on slow nights",
+  "avatar_style": {
+    "persona": "A relatable, slightly tired but resourceful bar staff member (30s, approachable).",
+    "wardrobe": "Casual, practical bar attire: dark t-shirt, simple apron, comfortable pants.",
+    "setting": "A cozy, slightly quiet neighborhood bar during off-peak hours (early evening)."
+  },
+  "video_spec": {
+    "duration_sec": 48,
+    "framerate": 30,
+    "aspect_ratio": "9:16"
+  },
+  "script": [
+    {
+      "t_start": 0.0,
+      "t_end": 8.0,
+      "speaker": "host",
+      "line": "Ever have those slow bar nights? You've got screens, but what's on them? Usually just sports or an empty placeholder. Wasted potential, right?",
+      "broll_cue": "Bar staff looking thoughtfully at a quiet bar and a dark TV screen.",
+      "on_screen_text": "Slow night at the bar?"
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 16.0,
+      "speaker": "host",
+      "line": "I used to just put up a chalk sign for tonight's special. But trying to update a dozen items, or local happenings, felt like another job.",
+      "broll_cue": "Bar staff gesturing towards a small, hand-written chalk sign, then looking overwhelmed with a stack of old flyers.",
+      "on_screen_text": "Manual updates are a pain."
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 24.0,
+      "speaker": "host",
+      "line": "Then I found Trillboards. Software-only. Super easy. Just scan a QR code from my phone, and boom \u2013 TV\u2019s ready.",
+      "broll_cue": "Bar staff pulling out a smartphone, approaching the TV which displays a QR code, and scanning it with a relieved expression.",
+      "on_screen_text": "Meet Trillboards: TV control from your phone."
+    },
+    {
+      "t_start": 24.0,
+      "t_end": 32.0,
+      "speaker": "host",
+      "line": "Now I can program rotating cards: our cocktail specials, happy hour times, even upcoming events. All from my phone, live.",
+      "broll_cue": "TV screen now shows dynamic, well-designed rotating cards. Staff member is smiling, holding phone showing Trillboards app.",
+      "on_screen_text": "Promote your specials, events."
+    },
+    {
+      "t_start": 32.0,
+      "t_end": 40.0,
+      "speaker": "host",
+      "line": "And the cool part? We can add local promos. With the owner\u2019s OK, a local barber shop or yoga studio can pay a small fee to appear. We've seen an extra $10-$40 a day on good nights, depending on traffic.",
+      "broll_cue": "TV shows a local promo card (e.g., 'Local Barber Shop Offer'). Staff member subtly holds up a few dollar bills, indicating earnings.",
+      "on_screen_text": "Earn extra: $10-40/day from local offers."
+    },
+    {
+      "t_start": 40.0,
+      "t_end": 48.0,
+      "speaker": "host",
+      "line": "It's a win-win. We promote our stuff, help local businesses, and earn a little extra. All without babysitting a screen. Just make sure you've got venue permission first!",
+      "broll_cue": "Staff member looks confidently at the camera, TV in background continues rotating content. They give a subtle thumbs-up.",
+      "on_screen_text": "Win-win. Get venue permission!"
+    }
+  ],
+  "caption_overlay": [
+    {
+      "t_start": 0.0,
+      "t_end": 8.0,
+      "text": "Ever have those slow bar nights? You've got screens, but what's on them? Usually just sports or an empty placeholder. Wasted potential, right?",
+      "emphasis_tokens": [
+        "slow bar nights",
+        "Wasted potential"
+      ]
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 16.0,
+      "text": "I used to just put up a chalk sign for tonight's special. But trying to update a dozen items, or local happenings, felt like another job.",
+      "emphasis_tokens": [
+        "chalk sign",
+        "another job"
+      ]
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 24.0,
+      "text": "Then I found Trillboards. Software-only. Super easy. Just scan a QR code from my phone, and boom \u2013 TV\u2019s ready.",
+      "emphasis_tokens": [
+        "Trillboards",
+        "Software-only",
+        "Super easy",
+        "QR code"
+      ]
+    },
+    {
+      "t_start": 24.0,
+      "t_end": 32.0,
+      "text": "Now I can program rotating cards: our cocktail specials, happy hour times, even upcoming events. All from my phone, live.",
+      "emphasis_tokens": [
+        "rotating cards",
+        "from my phone",
+        "live"
+      ]
+    },
+    {
+      "t_start": 32.0,
+      "t_end": 40.0,
+      "text": "And the cool part? We can add local promos. With the owner\u2019s OK, a local barber shop or yoga studio can pay a small fee to appear. We've seen an extra $10-$40 a day on good nights, depending on traffic.",
+      "emphasis_tokens": [
+        "local promos",
+        "owner's OK",
+        "$10-$40 a day",
+        "depending on traffic"
+      ]
+    },
+    {
+      "t_start": 40.0,
+      "t_end": 48.0,
+      "text": "It's a win-win. We promote our stuff, help local businesses, and earn a little extra. All without babysitting a screen. Just make sure you've got venue permission first!",
+      "emphasis_tokens": [
+        "win-win",
+        "earn a little extra",
+        "without babysitting",
+        "venue permission"
+      ]
+    }
+  ],
+  "visual_cues": {
+    "primary": [
+      "Bar staff member (host)",
+      "Bar interior (quiet, warm lighting)",
+      "Large TV screen (initially off/static, then displaying Trillboards content)",
+      "Smartphone with Trillboards app"
+    ],
+    "secondary": [
+      "Hand-written chalk sign",
+      "Stack of old flyers/paper ads",
+      "QR code displayed on TV",
+      "Local promo examples (e.g., barber shop, yoga studio)",
+      "Small stack of dollar bills"
+    ]
+  },
+  "trillboards_touchpoints": [
+    {
+      "moment": "Scan QR code",
+      "action": "Pairing TV via phone app and QR code on screen.trillboards.com",
+      "why_it_helps": "Solves hardware setup; makes any TV a digital sign."
+    },
+    {
+      "moment": "Program rotating cards",
+      "action": "Using Trillboards app to schedule and update house specials, events, etc.",
+      "why_it_helps": "Automates content rotation, keeps info fresh, reduces manual effort."
+    },
+    {
+      "moment": "Add local promos",
+      "action": "Integrating paid local promos from the marketplace into the playlist.",
+      "why_it_helps": "Generates additional income for the venue (EARNER) and provides value to local businesses (ADVERTISERS)."
+    },
+    {
+      "moment": "Swap cards on the fly",
+      "action": "Quickly changing or adding content from the app.",
+      "why_it_helps": "Provides flexibility and real-time control over screen content."
+    }
+  ],
+  "constraints_and_risks": [
+    "Always get venue owner/management permission before using Trillboards for local promos or monetizing screens.",
+    "Avoid promos that directly compete with the host venue's offerings (e.g., don't promote another bar's happy hour).",
+    "Earnings are variable and depend on foot traffic, location, and fill rate; avoid over-promising specific amounts."
+  ],
+  "metrics_hypothesis": {
+    "hook_strength_guess": 8,
+    "retention_spikes_at_sec": [
+      1.0,
+      18.0,
+      34.0
+    ],
+    "shareability_notes": "Targets bar/restaurant staff, small business owners, venue managers looking for easy extra income and promotion tools. Relatable problem-solution narrative."
+  },
+  "variants": {
+    "alt_hooks": [
+      "Is your bar's TV just... there? You're missing out!",
+      "Stuck promoting specials with chalkboards? There's a better way."
+    ],
+    "alt_pacing": [
+      "faster_emphasis_on_steps",
+      "story_first_then_steps"
+    ]
+  },
+  "rights_and_clearance_notes": "Standard clearance for talent, music, and any brand logos (Trillboards logo only). Stock footage for bar interior and phone screen overlays if needed. Talent release for host.",
+  "scene_breakdown": [
+    {
+      "scene_number": 1,
+      "duration_sec": 8,
+      "scene_type": "text_to_video",
+      "prompt_text": "A bar staff member (30s, approachable, slightly tired but engaging, wearing a dark casual t-shirt and a practical apron) looks out over a quiet, dimly lit neighborhood bar during a slow evening. The bar has a warm, inviting atmosphere with some empty tables and a large, dark TV screen on the wall. Soft ambient lighting.",
+      "continuity_notes": "Sets visual style, character, and mood for the entire video. Character's expression shifts from reflective to a hint of a smile.",
+      "key_visual_elements": [
+        "Bar staff",
+        "quiet bar interior",
+        "large dark TV",
+        "warm lighting"
+      ],
+      "camera_instruction": "Medium shot, slowly panning from left to right across the bar towards the staff member, settling on their face as they begin to speak.",
+      "lighting_notes": "Soft, warm, ambient lighting, hinting at evening, low key."
+    },
+    {
+      "scene_number": 2,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The bar staff member gestures towards a hand-written chalk sign on a small easel near the bar, displaying 'Tonight's Special.' They look a bit frustrated, then demonstrate fumbling with a stack of old flyers or paper ads.",
+      "continuity_notes": "Maintain same character, lighting, and setting. Show the manual, inefficient past.",
+      "key_visual_elements": [
+        "Chalk sign",
+        "stack of flyers",
+        "staff member's frustrated gestures"
+      ],
+      "camera_instruction": "Closer medium shot, following the staff member's gestures, slightly shaking head.",
+      "lighting_notes": "Same lighting as previous scene."
+    },
+    {
+      "scene_number": 3,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The bar staff member pulls out their smartphone, looking relieved. They approach the TV screen, which now displays a QR code and 'screen.trillboards.com' on a temporary setup screen. They scan the QR code with their phone, a satisfied look on their face.",
+      "continuity_notes": "Maintain same character, lighting, and setting. Focus on the ease of the Trillboards setup.",
+      "key_visual_elements": [
+        "Smartphone",
+        "TV displaying Trillboards QR",
+        "staff member scanning"
+      ],
+      "camera_instruction": "Over-the-shoulder shot, showing the phone scanning the QR code on the TV, then zoom slightly into the phone screen showing the Trillboards app opening.",
+      "lighting_notes": "Same lighting as previous scene."
+    },
+    {
+      "scene_number": 4,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The TV screen now shows a dynamic, well-designed Trillboards playlist of rotating cards: 'Happy Hour Specials!', 'Live Music Tonight!', 'New Cocktail Menu!'. The bar staff member is smiling, holding their phone, which displays the Trillboards app interface, easily swiping through card options.",
+      "continuity_notes": "Maintain same character, lighting, and setting. Show the dynamic output of Trillboards.",
+      "key_visual_elements": [
+        "TV displaying rotating Trillboards cards",
+        "staff member interacting with app on phone"
+      ],
+      "camera_instruction": "Medium shot, splitting focus between the TV and the staff member's phone, showing the seamless connection.",
+      "lighting_notes": "Same lighting as previous scene."
+    },
+    {
+      "scene_number": 5,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. One of the rotating cards on the TV seamlessly transitions to a 'local promo' \u2013 for example, 'Local Barber Shop: 10% off for Bar Patrons!'. The bar staff member subtly gestures towards the screen, then holds up a few dollar bills, indicating extra earnings, with a positive, resourceful expression.",
+      "continuity_notes": "Maintain same character, lighting, and setting. Introduce the monetization aspect visually.",
+      "key_visual_elements": [
+        "TV showing a local promo",
+        "staff member holding money",
+        "happy expression"
+      ],
+      "camera_instruction": "Closer shot on the TV screen showing the promo, then cut to the staff member subtly showing a few dollar bills, then back to TV.",
+      "lighting_notes": "Same lighting as previous scene."
+    },
+    {
+      "scene_number": 6,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The bar staff member looks directly at the camera, a confident, friendly smile. The TV in the background continues to display rotating Trillboards content. They nod reassuringly, then make a 'thumbs up' gesture.",
+      "continuity_notes": "Maintain same character, lighting, and setting. End with a positive, direct message.",
+      "key_visual_elements": [
+        "Staff member looking at camera",
+        "Trillboards content on TV in background",
+        "confident demeanor"
+      ],
+      "camera_instruction": "Medium close-up on the staff member, eye-level, maintaining direct address. TV visible in soft focus background.",
+      "lighting_notes": "Same lighting as previous scene."
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "id": "trillboards-bar-upsell-slow-nights",
+  "theme": "Bar staff upsell + local promos on slow nights",
+  "avatar_style": {
+    "persona": "A friendly, observant female bar staff member in her late 20s, with a knack for smart solutions.",
+    "wardrobe": "Casual, stylish bar uniform (e.g., black t-shirt or polo, dark jeans/pants, apron).",
+    "setting": "A dimly lit, cozy bar during a slow evening, with a few empty tables and a prominent TV screen behind the bar or in a lounge area."
+  },
+  "video_spec": {
+    "duration_sec": 40,
+    "framerate": 30,
+    "aspect_ratio": "9:16"
+  },
+  "script": [
+    {
+      "t_start": 0.0,
+      "t_end": 4.0,
+      "speaker": "host",
+      "line": "Ever have those slow nights at the bar? Empty seats, low tips\u2026",
+      "broll_cue": "Host looking around a quiet bar, a bit deflated.",
+      "on_screen_text": "Slow Night Blues?"
+    },
+    {
+      "t_start": 4.0,
+      "t_end": 8.0,
+      "speaker": "host",
+      "line": "But what if those quiet TVs could actually help?",
+      "broll_cue": "Host gestures towards a blank TV screen in the bar.",
+      "on_screen_text": "Your TV: An Untapped Asset"
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 12.5,
+      "speaker": "host",
+      "line": "That's where Trillboards comes in. It's software that turns any TV into a smart screen for your specials.",
+      "broll_cue": "Host quickly pulls out her phone, starts tapping the Trillboards app icon.",
+      "on_screen_text": "Trillboards: Your TV's Upgrade"
+    },
+    {
+      "t_start": 12.5,
+      "t_end": 16.0,
+      "speaker": "host",
+      "line": "No hardware, just your phone and a quick QR scan.",
+      "broll_cue": "Host scans a QR code on a 'screen.trillboards.com' page displayed on the TV.",
+      "on_screen_text": "Software Only. Easy Setup."
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 21.0,
+      "speaker": "host",
+      "line": "We use it to highlight our happy hour, tonight's cocktail, or even that new appetizer.",
+      "broll_cue": "TV screen now shows rotating cards: 'Happy Hour!', 'Tonight's Special Cocktail!', 'New Appetizer Alert!'. Host gestures proudly at the screen.",
+      "on_screen_text": "Showcase House Specials"
+    },
+    {
+      "t_start": 21.0,
+      "t_end": 24.0,
+      "speaker": "host",
+      "line": "It's always rotating, so customers see what's new without us pushing it.",
+      "broll_cue": "Close-up on the TV, showing smooth transitions between cards.",
+      "on_screen_text": "Effortless Rotation"
+    },
+    {
+      "t_start": 24.0,
+      "t_end": 28.0,
+      "speaker": "host",
+      "line": "And the cool part? You can add local promos. Think barber shops, yoga studios, local events.",
+      "broll_cue": "Host on phone, scrolling through local promo options in the Trillboards app. TV briefly shows a local yoga studio promo.",
+      "on_screen_text": "Local Promos & Earnings"
+    },
+    {
+      "t_start": 28.0,
+      "t_end": 32.0,
+      "speaker": "host",
+      "line": "It's extra income for the bar. We're talking like $10-$40 a day, depending on traffic.",
+      "broll_cue": "Host winks, showing a small stack of bills (prop money) discreetly. TV displays a 'Local Business Offer' card.",
+      "on_screen_text": "Extra Income for Your Venue ($10-40/day)"
+    },
+    {
+      "t_start": 32.0,
+      "t_end": 36.0,
+      "speaker": "host",
+      "line": "It's super low-maintenance. We set it, forget it, and update on the fly.",
+      "broll_cue": "Host casually wipes the bar counter, glances at the TV, then back to work, emphasizing ease of use.",
+      "on_screen_text": "Set It & Forget It (Mostly)"
+    },
+    {
+      "t_start": 36.0,
+      "t_end": 40.0,
+      "speaker": "host",
+      "line": "Make your quiet nights work harder. Just ask your manager for permission first!",
+      "broll_cue": "Host smiles confidently, looking at the camera, then gestures towards the now active TV screen. Final shot of the TV displaying a mix of house and local promos.",
+      "on_screen_text": "Boost Your Bar's Bottom Line (with permission!)"
+    }
+  ],
+  "caption_overlay": [
+    {
+      "t_start": 0.0,
+      "t_end": 4.0,
+      "text": "Slow nights? Empty seats?",
+      "emphasis_tokens": [
+        "Slow",
+        "nights?",
+        "Empty",
+        "seats?"
+      ]
+    },
+    {
+      "t_start": 4.0,
+      "t_end": 8.0,
+      "text": "Your TV can help!",
+      "emphasis_tokens": [
+        "Your",
+        "TV",
+        "help!"
+      ]
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 16.0,
+      "text": "Trillboards: TV for Local Promos & Specials",
+      "emphasis_tokens": [
+        "Trillboards:",
+        "Local",
+        "Promos",
+        "Specials"
+      ]
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 24.0,
+      "text": "Showcase what sells! Effortlessly.",
+      "emphasis_tokens": [
+        "Showcase",
+        "sells!",
+        "Effortlessly."
+      ]
+    },
+    {
+      "t_start": 24.0,
+      "t_end": 32.0,
+      "text": "Earn extra cash. Local ads!",
+      "emphasis_tokens": [
+        "Earn",
+        "extra",
+        "cash.",
+        "Local",
+        "ads!"
+      ]
+    },
+    {
+      "t_start": 32.0,
+      "t_end": 40.0,
+      "text": "Low effort, high impact. Ask your manager!",
+      "emphasis_tokens": [
+        "Low",
+        "effort,",
+        "high",
+        "impact.",
+        "Ask",
+        "manager!"
+      ]
+    }
+  ],
+  "visual_cues": {
+    "primary": [
+      "Bar TV screen displaying Trillboards content (bar specials, local promos)",
+      "Host (bar staff) interacting with phone",
+      "Quiet bar environment"
+    ],
+    "secondary": [
+      "QR code scan animation",
+      "Subtle money imagery (small stack of bills)",
+      "Happy customers occasionally glancing at TV"
+    ]
+  },
+  "trillboards_touchpoints": [
+    {
+      "moment": "Problem Introduction",
+      "action": "Highlighting a quiet bar and underutilized TV",
+      "why_it_helps": "Sets up Trillboards as the solution to a common bar challenge (slow nights, missed upsell opportunities)."
+    },
+    {
+      "moment": "Setup Flow",
+      "action": "Scanning QR code at screen.trillboards.com",
+      "why_it_helps": "Demonstrates the simplicity and hardware-free nature of setup."
+    },
+    {
+      "moment": "Content Scheduling",
+      "action": "Choosing playlist template (bar specials) and adding house items",
+      "why_it_helps": "Shows how Trillboards directly addresses upsell and communication for the bar's own offerings."
+    },
+    {
+      "moment": "Marketplace Integration",
+      "action": "Adding paid local promos from the marketplace",
+      "why_it_helps": "Illustrates the revenue-generating aspect and how it creates additional value for the venue."
+    },
+    {
+      "moment": "Ongoing Management",
+      "action": "Swapping cards on the fly from the app",
+      "why_it_helps": "Emphasizes the ease of ongoing use and flexibility without babysitting."
+    }
+  ],
+  "constraints_and_risks": [
+    "Venue permission is crucial for any TV use or third-party promotions.",
+    "Ensure local promos do not compete directly with the host venue's primary business (e.g., no competing bar promos).",
+    "Earnings are variable and dependent on venue foot traffic, hours, and demand from local advertisers. Avoid over-promising."
+  ],
+  "metrics_hypothesis": {
+    "hook_strength_guess": 8,
+    "retention_spikes_at_sec": [
+      1.0,
+      10.0,
+      25.0,
+      37.0
+    ],
+    "shareability_notes": "Targets bar staff, small business owners, and hospitality managers looking for side-hustle or efficiency hacks. Shareable among industry groups."
+  },
+  "variants": {
+    "alt_hooks": [
+      "Tired of just wiping down counters on slow nights? Your TV could be earning!",
+      "What if your bar's quietest asset became its biggest earner?"
+    ],
+    "alt_pacing": [
+      "faster_emphasis_on_steps",
+      "story_first_then_steps"
+    ]
+  },
+  "rights_and_clearance_notes": "Requires clearance for any stock footage used (bar environment, generic customer interactions). Music should be royalty-free. No specific brand logos other than Trillboards.",
+  "scene_breakdown": [
+    {
+      "scene_number": 1,
+      "duration_sec": 8,
+      "scene_type": "text_to_video",
+      "prompt_text": "Wide shot of a cozy, dimly lit bar on a quiet evening. A female bar staff member in her late 20s, wearing a simple black t-shirt and apron, stands behind the bar, looking a bit bored and tired. There are only a few empty tables visible. A prominent, blank TV screen is on the wall behind the bar.",
+      "continuity_notes": "Sets visual style and character appearance for entire video. Establishes the 'slow night' problem.",
+      "key_visual_elements": [
+        "Female bar staff",
+        "Quiet bar setting",
+        "Blank TV screen",
+        "Dim, warm lighting"
+      ],
+      "camera_instruction": "Slow zoom in on the host's face as she looks around.",
+      "lighting_notes": "Soft, warm, ambient lighting, typical of a bar at night."
+    },
+    {
+      "scene_number": 2,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The bar staff member pulls out her smartphone, eyes the blank TV screen thoughtfully, then quickly taps the Trillboards app icon on her phone. She then points her phone at the TV, displaying a QR code on the TV's screen (simulated 'screen.trillboards.com' webpage).",
+      "continuity_notes": "Maintain same character, lighting, and setting. Transition from contemplation to action.",
+      "key_visual_elements": [
+        "Host with smartphone",
+        "TV displaying QR code",
+        "Trillboards app icon visible"
+      ],
+      "camera_instruction": "Medium shot, following the host's actions, with clear view of phone and TV interaction.",
+      "lighting_notes": "Same lighting as previous scene."
+    },
+    {
+      "scene_number": 3,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The TV screen now bursts to life, displaying vibrant, rotating digital cards showing 'Happy Hour!' drinks, 'Tonight's Special Cocktail!', and a 'New Appetizer Alert!'. The bar staff member smiles, gestures proudly at the TV, then quickly taps something on her phone, showing the ease of managing cards.",
+      "continuity_notes": "Maintain consistent character, setting, and lighting. Focus on the positive transformation of the TV.",
+      "key_visual_elements": [
+        "TV displaying rotating bar specials",
+        "Host's satisfied expression",
+        "Host interacting with Trillboards app on phone"
+      ],
+      "camera_instruction": "Alternating close-ups between the TV screen and the host's phone/face.",
+      "lighting_notes": "Same lighting, but the TV screen provides dynamic light."
+    },
+    {
+      "scene_number": 4,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The TV screen now seamlessly transitions to a 'Local Yoga Studio Offer' card, then a 'Local Barber Shop Discount'. The bar staff member discreetly shows a small stack of prop bills in her hand, winking at the camera, emphasizing the earnings. Her phone shows the 'Local Promos Marketplace' in the Trillboards app.",
+      "continuity_notes": "Maintain character, setting, and lighting. Show the financial benefit.",
+      "key_visual_elements": [
+        "TV displaying local business promos",
+        "Host with prop money",
+        "Trillboards marketplace interface on phone"
+      ],
+      "camera_instruction": "Medium shot, clearly showing the TV content and the host's subtle money gesture.",
+      "lighting_notes": "Consistent bar lighting."
+    },
+    {
+      "scene_number": 5,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The bar staff member casually wipes the counter, glancing at the TV, which is still rotating a mix of house specials and local promos. A customer briefly walks by, glancing at the TV with interest. The host then looks directly at the camera with a confident, encouraging smile, gesturing towards the TV.",
+      "continuity_notes": "Maintain character, setting, and lighting. Conclude with ease of use and call to action.",
+      "key_visual_elements": [
+        "Host casually working",
+        "TV continuously rotating content",
+        "Customer briefly noticing TV",
+        "Host's confident, direct gaze"
+      ],
+      "camera_instruction": "Medium shot to wider shot to show bar activity and TV, then a final confident close-up on the host.",
+      "lighting_notes": "Consistent bar lighting."
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "id": "trillboards-laundromat-v1",
+  "theme": "Laundromat owner runs neighborhood deals between music videos",
+  "avatar_style": {
+    "persona": "Sal, 40s. A practical, friendly small business owner. He's proud of his clean, modern laundromat and looks for simple ways to improve customer experience and his bottom line.",
+    "wardrobe": "Dark gray polo shirt with a small, subtle laundromat logo on the chest. Clean jeans. Looks professional but approachable.",
+    "setting": "A well-lit, clean laundromat with rows of stainless steel machines. The shot is framed near the folding tables, with a wall-mounted TV visible in the background."
+  },
+  "video_spec": {
+    "duration_sec": 45,
+    "framerate": 30,
+    "aspect_ratio": "9:16"
+  },
+  "script": [
+    {
+      "t_start": 0.0,
+      "t_end": 3.5,
+      "speaker": "host",
+      "line": "My laundromat's TV used to just be background noise.",
+      "broll_cue": "Wide shot of Sal in his laundromat, TV in the background playing a generic music video.",
+      "on_screen_text": ""
+    },
+    {
+      "t_start": 3.5,
+      "t_end": 9.0,
+      "speaker": "host",
+      "line": "Now, it quietly makes me an extra $10 to $40 a day, depending on traffic.",
+      "broll_cue": "Quick shot of a phone screen showing a simple earnings graph with small daily payouts.",
+      "on_screen_text": "$10-$40/day*"
+    },
+    {
+      "t_start": 9.0,
+      "t_end": 14.0,
+      "speaker": "host",
+      "line": "Folks are here for an hour anyway, so I play music videos. But it felt like a waste.",
+      "broll_cue": "Customer folding laundry, glancing up at the TV.",
+      "on_screen_text": ""
+    },
+    {
+      "t_start": 14.0,
+      "t_end": 22.0,
+      "speaker": "host",
+      "line": "I found this app, Trillboards. It lets me slide in our own specials and promos from other local spots between songs.",
+      "broll_cue": "On the TV, a music video fades out, and a promo for 'Taco Tuesday' at a local spot fades in.",
+      "on_screen_text": "Local Promos"
+    },
+    {
+      "t_start": 22.0,
+      "t_end": 29.0,
+      "speaker": "host",
+      "line": "Setup was nothing. I just opened their website on the TV, scanned a QR code with my phone, and it was paired.",
+      "broll_cue": "Split screen: Sal pointing phone at TV showing screen.trillboards.com QR code; phone screen showing a 'Paired!' confirmation.",
+      "on_screen_text": "Scan to Pair"
+    },
+    {
+      "t_start": 29.0,
+      "t_end": 37.0,
+      "speaker": "host",
+      "line": "I picked a template, and now the coffee shop next door promotes their morning special, and the hardware store shows their weekend sales.",
+      "broll_cue": "Close up of Sal's phone as he scrolls through a marketplace of local promos and taps to add one to his playlist.",
+      "on_screen_text": "Neighborhood Marketplace"
+    },
+    {
+      "t_start": 37.0,
+      "t_end": 45.0,
+      "speaker": "host",
+      "line": "It just runs itself. It\u2019s not really 'advertising,' it's more like a useful digital bulletin board for the neighborhood.",
+      "broll_cue": "Final shot of Sal smiling, arms crossed. The TV in the background rotates between a music video and a community event notice.",
+      "on_screen_text": "Trillboards"
+    }
+  ],
+  "caption_overlay": [
+    {
+      "t_start": 0.0,
+      "t_end": 3.5,
+      "text": "My laundromat's TV used to just be background noise.",
+      "emphasis_tokens": [
+        "background",
+        "noise"
+      ]
+    },
+    {
+      "t_start": 3.5,
+      "t_end": 9.0,
+      "text": "Now, it quietly makes me an extra $10 to $40 a day, depending on traffic.",
+      "emphasis_tokens": [
+        "extra",
+        "$10",
+        "$40",
+        "a day"
+      ]
+    },
+    {
+      "t_start": 9.0,
+      "t_end": 14.0,
+      "text": "Folks are here for an hour anyway, so I play music videos. But it felt like a waste.",
+      "emphasis_tokens": [
+        "waste"
+      ]
+    },
+    {
+      "t_start": 14.0,
+      "t_end": 22.0,
+      "text": "I found this app, Trillboards. It lets me slide in our own specials and promos from other local spots between songs.",
+      "emphasis_tokens": [
+        "Trillboards",
+        "local spots"
+      ]
+    },
+    {
+      "t_start": 22.0,
+      "t_end": 29.0,
+      "text": "Setup was nothing. I just opened their website on the TV, scanned a QR code with my phone, and it was paired.",
+      "emphasis_tokens": [
+        "scanned",
+        "QR code"
+      ]
+    },
+    {
+      "t_start": 29.0,
+      "t_end": 37.0,
+      "text": "I picked a template, and now the coffee shop next door promotes their morning special, and the hardware store shows their weekend sales.",
+      "emphasis_tokens": [
+        "coffee shop",
+        "hardware store"
+      ]
+    },
+    {
+      "t_start": 37.0,
+      "t_end": 45.0,
+      "text": "It just runs itself. It\u2019s not really 'advertising,' it's more like a useful digital bulletin board for the neighborhood.",
+      "emphasis_tokens": [
+        "runs itself",
+        "bulletin board"
+      ]
+    }
+  ],
+  "visual_cues": {
+    "primary": [
+      "Host (Sal) speaking to camera",
+      "TV screen showing content (music video, promos)",
+      "Phone in hand showing the Trillboards app"
+    ],
+    "secondary": [
+      "Customers in the laundromat",
+      "Close-up of QR code on TV",
+      "Close-up of app UI (playlist, earnings)",
+      "Mockup promos for local businesses (coffee, hardware store, yoga)"
+    ]
+  },
+  "trillboards_touchpoints": [
+    {
+      "moment": "Pairing TV",
+      "action": "Scan QR code from screen.trillboards.com using the phone app.",
+      "why_it_helps": "No hardware or complicated setup. Takes less than a minute."
+    },
+    {
+      "moment": "Adding Promos",
+      "action": "Browse the marketplace for local promos and add to playlist.",
+      "why_it_helps": "Fills screen time with relevant, paid content without any sales effort."
+    },
+    {
+      "moment": "Set & Forget",
+      "action": "Set rotation schedule and quiet hours once.",
+      "why_it_helps": "Runs autonomously without needing to be managed day-to-day."
+    }
+  ],
+  "constraints_and_risks": [
+    "If you're not the venue owner, you must get permission first.",
+    "Earnings are plausible but not guaranteed; they depend on foot traffic, location, and advertiser demand in your area.",
+    "Avoid running promos that directly compete with your own business or host venue (e.g., another laundromat's ad)."
+  ],
+  "metrics_hypothesis": {
+    "hook_strength_guess": 8,
+    "retention_spikes_at_sec": [
+      4.0,
+      23.0
+    ],
+    "shareability_notes": "High shareability among other small business owners (cafes, barbershops, waiting rooms, gyms) who have TVs and are looking for low-effort revenue streams."
+  },
+  "variants": {
+    "alt_hooks": [
+      "This TV pays for my wifi bill and then some. Here's how.",
+      "Turning my laundromat's dead screen into a neighborhood bulletin board that pays."
+    ],
+    "alt_pacing": [
+      "faster_emphasis_on_steps",
+      "story_first_then_steps"
+    ]
+  },
+  "rights_and_clearance_notes": "Must use royalty-free or licensed music for any 'music videos' shown on the screen. All business logos/promos shown (e.g., 'Taco Tuesday') must be cleared or use generic, non-branded mockups."
+}

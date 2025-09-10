@@ -1,0 +1,105 @@
+[
+  {
+    "id": "bar-micro-promos-01",
+    "theme": "Bar staff upsell + local promos on slow nights",
+    "avatar_style": {
+      "persona": "bartender, late-20s, calm confidence",
+      "wardrobe": "black tee, apron",
+      "setting": "neighborhood bar back counter; TV behind"
+    },
+    "video_spec": {"duration_sec": 42, "framerate": 30, "aspect_ratio": "9:16"},
+    "script": [
+      {"t_start":0.0,"t_end":1.6,"speaker":"host","line":"I made $62 last Tuesday… during our slowest shift.","broll_cue":"host gestures at empty bar stools","on_screen_text":"Slow night → $62"},
+      {"t_start":1.6,"t_end":5.5,"speaker":"host","line":"I run tiny house-special promos between the game highlights.","broll_cue":"TV in background cycles a simple drink card","on_screen_text":"House specials rotate"},
+      {"t_start":5.5,"t_end":12.0,"speaker":"host","line":"Step 1: Ask your manager if you can run rotating promos on the spare TV.","broll_cue":"thumbs-up, manager nods off-screen","on_screen_text":"Get permission"},
+      {"t_start":12.0,"t_end":22.0,"speaker":"host","line":"Step 2: Pair the TV and schedule 3 cards: Taco Night, Happy Hour, Trivia signup.","broll_cue":"scan QR → screen.trillboards.com → select playlist","on_screen_text":"Pair & schedule"},
+      {"t_start":22.0,"t_end":31.0,"speaker":"host","line":"Step 3: Add one local promo—like the deli next door—rotating every 6–8 min.","broll_cue":"add local promo card; simple price tag","on_screen_text":"Add local promo"},
+      {"t_start":31.0,"t_end":38.0,"speaker":"host","line":"Tips rose a little, and the deli pays a small daily rate when foot traffic is decent.","broll_cue":"tip jar, small deli logo blurred, simple chart up","on_screen_text":"Small daily rate"},
+      {"t_start":38.0,"t_end":42.0,"speaker":"host","line":"Would your bar try this? Slow night tax, reversed.","broll_cue":"host smile + cheers","on_screen_text":"Would you try it?"}
+    ],
+    "caption_overlay": [
+      {"t_start":0.0,"t_end":1.6,"text":"$62 on a slow shift","emphasis_tokens":["$62"]},
+      {"t_start":5.5,"t_end":12.0,"text":"Step 1: Permission","emphasis_tokens":["Permission"]},
+      {"t_start":12.0,"t_end":22.0,"text":"Pair TV → schedule 3 cards","emphasis_tokens":["Pair","schedule"]},
+      {"t_start":22.0,"t_end":31.0,"text":"Add 1 local promo (6–8 min)","emphasis_tokens":["local","6–8"]},
+      {"t_start":31.0,"t_end":38.0,"text":"Tiny tips ↑ + small daily rate","emphasis_tokens":["daily","rate"]},
+      {"t_start":38.0,"t_end":42.0,"text":"Try this at your bar?","emphasis_tokens":["Try"]}
+    ],
+    "visual_cues": {
+      "primary": ["QR pairing on TV","simple promo cards cycling","bar back counter close-ups"],
+      "secondary": ["tip jar","manager nod","small line chart"]
+    },
+    "trillboards_touchpoints": [
+      {"moment":"Step 2","action":"Scan QR at screen.trillboards.com; select playlist; set rotation","why_it_helps":"hands-off rotation; quick swap of specials"}
+    ],
+    "constraints_and_risks": [
+      "Obtain venue permission.",
+      "Low fill rate on rainy weekdays.",
+      "Keep captions high-contrast for dim bars."
+    ],
+    "metrics_hypothesis": {
+      "hook_strength_guess": 8,
+      "retention_spikes_at_sec": [0.7, 12.2, 31.4],
+      "shareability_notes": "Hospitality TikTok; 'slow night hacks' communities."
+    },
+    "variants": {
+      "alt_hooks": [
+        "Our dead Tuesday paid me back.",
+        "Turn slow hours into small wins.",
+        "What I run between the games:"
+      ],
+      "alt_pacing": ["faster_emphasis_on_steps","story_first_then_steps"]
+    },
+    "rights_and_clearance_notes": "Blur patron faces; no beer brand logos; manager consent recorded."
+  },
+  {
+    "id": "gym-offpeak-fill-01",
+    "theme": "Gym front desk highlights off-peak classes + local promos",
+    "avatar_style": {
+      "persona": "front desk rep, early-20s, upbeat",
+      "wardrobe": "gym polo",
+      "setting": "small gym lobby; TV above check-in"
+    },
+    "video_spec": {"duration_sec": 55, "framerate": 30, "aspect_ratio": "9:16"},
+    "script": [
+      {"t_start":0.0,"t_end":2.0,"speaker":"host","line":"We filled a 2pm class… on a Tuesday.","broll_cue":"empty studio → quick cut to sign-ups pinging","on_screen_text":"2pm filled"},
+      {"t_start":2.0,"t_end":8.0,"speaker":"host","line":"Quick play: rotate class promos and 1 neighborhood offer between check-ins.","broll_cue":"TV cycles tiles: Yoga 2pm • Mobility 3pm • Juice Bar 10%","on_screen_text":"Rotate promos"},
+      {"t_start":8.0,"t_end":18.0,"speaker":"host","line":"Ask your manager to use the lobby TV for off-peak, then pair it.","broll_cue":"QR scan → screen pairing success","on_screen_text":"Pair lobby TV"},
+      {"t_start":18.0,"t_end":34.0,"speaker":"host","line":"Schedule tiles: today's classes + a low-pressure partner promo (juice bar).","broll_cue":"create playlist; set intervals 5–7 min","on_screen_text":"Playlist: 5–7 min"},
+      {"t_start":34.0,"t_end":48.0,"speaker":"host","line":"We saw more walk-ins ask about Mobility. Juice bar covers a small daily for visibility.","broll_cue":"front desk chatting; subtle chart uptick","on_screen_text":"Mobility inquiries ↑"},
+      {"t_start":48.0,"t_end":55.0,"speaker":"host","line":"Would your gym try this during nap-time hours?","broll_cue":"host points to schedule","on_screen_text":"Would you try it?"}
+    ],
+    "caption_overlay": [
+      {"t_start":0.0,"t_end":2.0,"text":"2pm on a Tuesday = filled","emphasis_tokens":["2pm"]},
+      {"t_start":8.0,"t_end":18.0,"text":"Step 1: Manager OK + pair","emphasis_tokens":["pair"]},
+      {"t_start":18.0,"t_end":34.0,"text":"Schedule classes + 1 partner","emphasis_tokens":["Schedule"]},
+      {"t_start":34.0,"t_end":48.0,"text":"Walk-ins ↑; small daily cover","emphasis_tokens":["Walk-ins","daily"]}
+    ],
+    "visual_cues": {
+      "primary": ["check-in counter","TV above counter cycling tiles","QR pairing"],
+      "secondary": ["class whiteboard","juice bar cup close-up"]
+    },
+    "trillboards_touchpoints": [
+      {"moment":"Pairing","action":"QR pair → choose 'Off-Peak Class Fill' template","why_it_helps":"pre-made tiles; hands-off rotation"}
+    ],
+    "constraints_and_risks": [
+      "Manager permission required.",
+      "Avoid conflicting partner deals.",
+      "Keep text large for viewing distance."
+    ],
+    "metrics_hypothesis": {
+      "hook_strength_guess": 7,
+      "retention_spikes_at_sec": [1.1, 9.0, 35.2],
+      "shareability_notes": "Gym owners, class instructors, front-desk subreddits."
+    },
+    "variants": {
+      "alt_hooks": [
+        "How we filled nap-time classes.",
+        "Tuesdays aren't dead anymore.",
+        "We used the lobby TV smarter."
+      ],
+      "alt_pacing": ["faster_emphasis_on_steps","story_first_then_steps"]
+    },
+    "rights_and_clearance_notes": "No visible member data; blur calendars with names."
+  }
+]

@@ -1,0 +1,254 @@
+{
+  "id": "trillboards-janitor-hustle-viral-001",
+  "theme": "Night janitor's secret $200/week side hustle using office building TVs after hours",
+  "avatar_style": {
+    "persona": "Rebellious, street-smart character who discovered underground money-making method",
+    "wardrobe": "Casual, relatable clothing that signals 'regular person who cracked the code'",
+    "setting": "Gritty, authentic workplace setting - dim lighting, real environment not staged"
+  },
+  "video_spec": {
+    "duration_sec": 40,
+    "framerate": 30,
+    "aspect_ratio": "9:16"
+  },
+  "script": [
+    {
+      "t_start": 0.0,
+      "t_end": 3.0,
+      "speaker": "host",
+      "line": "I'm making an extra $247 a week from office TVs, and my boss has NO idea. What if I told you your workplace is sitting on a goldmine?",
+      "broll_cue": "Dramatic close-up of cash being counted secretly, TV screen glowing in background",
+      "on_screen_text": "$247/WEEK SECRET"
+    },
+    {
+      "t_start": 3.0,
+      "t_end": 8.0,
+      "speaker": "host",
+      "line": "I was just a night janitor, barely scraping by. Every extra hour was a grind. Until I found this loophole.",
+      "broll_cue": "Tired-looking janitor, authentic struggle (e.g., mopping floor, looking exhausted), then a moment of realization",
+      "on_screen_text": "THE GRIND WAS REAL"
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 16.0,
+      "speaker": "host",
+      "line": "See these office TVs? Dead after 5 PM. I figured out how to turn them into an underground ad network. This app, Trillboards, is how.",
+      "broll_cue": "Quick cuts: Host stealthily pulls out phone, opens Trillboards app, points at a dark, unused office TV screen",
+      "on_screen_text": "HACKING DEAD SCREENS"
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 24.0,
+      "speaker": "host",
+      "line": "It's simple. You scan a QR code at screen.trillboards.com, pick a template for local offers, and let it run. No hardware, no IT. Just software filling dead air with paid promos.",
+      "broll_cue": "Demonstrating QR scan on TV screen, then quickly showing app interface selecting content/playlist",
+      "on_screen_text": "YOUR BOSS WON'T TELL YOU THIS"
+    },
+    {
+      "t_start": 24.0,
+      "t_end": 32.0,
+      "speaker": "host",
+      "line": "Now, those 'dead' screens are quietly earning me an extra $180 to $247 every single week. My boss has absolutely no clue. It's truly passive income.",
+      "broll_cue": "Host secretly shows Trillboards earnings dashboard on phone, then discretely counting a stack of bills",
+      "on_screen_text": "PASSIVE $180-$247/WEEK"
+    },
+    {
+      "t_start": 32.0,
+      "t_end": 40.0,
+      "speaker": "host",
+      "line": "This only works if you have access to unused screens after hours \u2013 like a janitor, security guard, or night shift. But if you do, why aren't you doing this already?",
+      "broll_cue": "Host winks to camera, then conspiratorially looks at a TV screen before walking away, leaving the TV glowing",
+      "on_screen_text": "DON'T MISS OUT"
+    }
+  ],
+  "caption_overlay": [
+    {
+      "t_start": 0.0,
+      "t_end": 3.0,
+      "text": "Made $247 doing THIS at work",
+      "emphasis_tokens": [
+        "$247",
+        "THIS"
+      ]
+    },
+    {
+      "t_start": 3.0,
+      "t_end": 8.0,
+      "text": "They still don't know...",
+      "emphasis_tokens": [
+        "don't",
+        "know"
+      ]
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 16.0,
+      "text": "Underground TV money method",
+      "emphasis_tokens": [
+        "Underground",
+        "money"
+      ]
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 24.0,
+      "text": "Your boss won't tell you this",
+      "emphasis_tokens": [
+        "boss",
+        "won't"
+      ]
+    },
+    {
+      "t_start": 24.0,
+      "t_end": 32.0,
+      "text": "$180-$247/week EXTRA income",
+      "emphasis_tokens": [
+        "$180-$247/week",
+        "EXTRA"
+      ]
+    },
+    {
+      "t_start": 32.0,
+      "t_end": 40.0,
+      "text": "Works with ANY workplace TV",
+      "emphasis_tokens": [
+        "ANY",
+        "workplace"
+      ]
+    }
+  ],
+  "visual_cues": {
+    "primary": [
+      "money counting",
+      "secret phone usage",
+      "TV screen transformations",
+      "workplace settings"
+    ],
+    "secondary": [
+      "QR codes",
+      "app interface",
+      "cash/payments",
+      "stealth operations"
+    ]
+  },
+  "trillboards_touchpoints": [
+    {
+      "moment": "The Reveal",
+      "action": "Shows trillboards app secretly",
+      "why_it_helps": "Monetizes dead screen time without hardware"
+    },
+    {
+      "moment": "The Setup",
+      "action": "QR code scan on workplace TV",
+      "why_it_helps": "Takes seconds to set up passive income remotely"
+    },
+    {
+      "moment": "The Results",
+      "action": "Shows earnings dashboard",
+      "why_it_helps": "Proof of concept with real numbers and continuous income"
+    }
+  ],
+  "constraints_and_risks": [
+    "Keep it legal but edgy",
+    "Don't encourage actual rule-breaking (focus on unused/dead screen time)",
+    "The 'secret' is leveraging underutilized assets, not disrupting company operations"
+  ],
+  "metrics_hypothesis": {
+    "hook_strength_guess": 9,
+    "retention_spikes_at_sec": [
+      1.0,
+      8.0,
+      24.0
+    ],
+    "shareability_notes": "Controversial angle + specific money claims + FOMO + anti-establishment undertones"
+  },
+  "variants": {
+    "alt_hooks": [
+      "I made $200 this week and my company has no idea",
+      "This side hustle only works if you have TV access after hours...",
+      "Your workplace is sitting on money and doesn't know it"
+    ],
+    "alt_pacing": [
+      "money_first_method_second",
+      "struggle_story_then_revelation",
+      "controversy_then_proof"
+    ]
+  },
+  "rights_and_clearance_notes": "Edgy but legal content - focuses on legitimate unused screen monetization by a person with physical access, without implying malicious intent or damage to property/operations.",
+  "scene_breakdown": [
+    {
+      "scene_number": 1,
+      "duration_sec": 8,
+      "scene_type": "text_to_video",
+      "prompt_text": "Dramatic close-up of a person in dim, realistic workplace lighting (e.g., office hallway at night), quickly counting a stack of cash with a sly, excited expression. In the background, a large, dark TV screen subtly glows with a faint light. The overall mood is secretive and slightly illicit.",
+      "continuity_notes": "Establish the underground/secret money-making vibe with dramatic, low-key lighting and a sense of urgency/discretion. Maintain focus on the person's face and hands.",
+      "key_visual_elements": [
+        "cash money (bills)",
+        "workplace TV (background)",
+        "secretive atmosphere",
+        "authentic person (janitor attire, tired but alert eyes)"
+      ],
+      "camera_instruction": "Close-up, slightly shaky handheld style for authenticity, focusing on hands and then quickly panning to a knowing glance at the camera.",
+      "lighting_notes": "Dim, dramatic lighting; primary light source is a subtle glow from the background TV and a practical light creating shadows on the person."
+    },
+    {
+      "scene_number": 2,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The person quickly pockets the cash, looks around cautiously, then pulls out a smartphone. They swiftly open an app (Trillboards UI suggested) with quick, stealthy finger movements, occasionally glancing up as if checking for surveillance or unexpected presence. The phone screen illuminates their face slightly.",
+      "continuity_notes": "Maintain the secretive atmosphere. Transition from physical money to the digital tool. Show the 'struggle' in their demeanor and the 'discovery' in their actions.",
+      "key_visual_elements": [
+        "phone usage (Trillboards app UI)",
+        "cautious movements (looking over shoulder, quick glances)",
+        "office environment (desks, cubicles in shadows)"
+      ],
+      "camera_instruction": "Over-the-shoulder shot of the phone screen, intercut with close-ups of the person's face reflecting the phone glow, conveying tension and focus.",
+      "lighting_notes": "Same dim lighting, augmented by the glow from the phone screen creating subtle highlights and shadows on the face."
+    },
+    {
+      "scene_number": 3,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The person quickly points their phone at a large, dark office TV screen. The TV instantly flickers to life, displaying a prominent QR code for 'screen.trillboards.com'. The person rapidly scans it with their phone, constantly glancing around nervously to ensure nobody sees them. The focus is on the quick, almost 'forbidden' act of scanning.",
+      "continuity_notes": "Build tension around the secret operation. Emphasize the ease and speed of the setup.",
+      "key_visual_elements": [
+        "QR code on TV screen",
+        "phone scanning action",
+        "stealth behavior (quick head turns, body language)",
+        "empty office hallway/lobby setting"
+      ],
+      "camera_instruction": "Quick cuts between close-ups of the phone scanning the QR code, the TV screen displaying the QR, and the person's tense, darting eyes. Use point-of-view shots from the phone.",
+      "lighting_notes": "The TV screen brightness dramatically illuminates the person's face as the QR code appears, creating sharp contrast."
+    },
+    {
+      "scene_number": 4,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. After scanning, the person rapidly interacts with the Trillboards app on their phone (quick taps, swipes, confirming settings). Immediately, the previously dark TV screen now displays rotating, professional-looking 'local promos' (e.g., 'Joe's Coffee - 10% off', 'Yoga Studio - Free Trial'). The person steps back, watching the TV with a satisfied, triumphant smile, still somewhat cautious but clearly pleased with their 'hack'.",
+      "continuity_notes": "Show the 'method working' and the transformation of the 'dead' screen.",
+      "key_visual_elements": [
+        "TV displaying various local promos/ads (Trillboards content)",
+        "satisfied expression on person's face",
+        "seamless content rotation",
+        "office environment with the now 'active' TV"
+      ],
+      "camera_instruction": "Wide shot showing the full TV and the person observing, then a quick zoom into the rotating content on the TV. Maintain a slight distance to show the 'workflow'.",
+      "lighting_notes": "The TV screen's display provides significant light, brightening the immediate area around the screen and the person, signaling success."
+    },
+    {
+      "scene_number": 5,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continue from last frame. The person is back in a quieter, more private corner of the office (e.g., janitor's closet or small break room). They pull out their phone again and open the Trillboards app to an 'Earnings Dashboard'. A series of growing dollar amounts quickly flashes on the screen ($60, $120, $180, $247), indicating weekly income. They smirk, count a small wad of bills (e.g., $60 for a day's earnings) and pocket it, then deliver a direct, conspiratorial wink to the camera before melting back into the shadows.",
+      "continuity_notes": "Reveal the payoff and success clearly. End with a strong, direct, and slightly mischievous call to action/conclusion.",
+      "key_visual_elements": [
+        "Trillboards earnings dashboard on phone (showing progressive income)",
+        "physical cash (small amount, indicating daily payout)",
+        "direct camera address (wink, smirk)",
+        "melting into shadows"
+      ],
+      "camera_instruction": "Close-up on the phone screen for earnings display, then a quick pan to the face for the wink and smirk, ending with a receding shot of the person disappearing.",
+      "lighting_notes": "Phone screen brightness illuminates the face for the earnings reveal; fading light as the person moves into shadows."
+    }
+  ]
+}

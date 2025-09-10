@@ -1,0 +1,182 @@
+{
+  "id": "sh-gym-frontdesk-v1",
+  "theme": "Gym front desk highlights off-peak classes + local promos",
+  "avatar_style": {
+    "persona": "Alex, a friendly and competent gym front desk staffer in their early 20s. Looks like they actually work out at the gym.",
+    "wardrobe": "Branded gym polo shirt, athletic shorts.",
+    "setting": "A clean, modern gym lobby. A TV is visible on the wall behind the front desk."
+  },
+  "video_spec": {
+    "duration_sec": 45,
+    "framerate": 30,
+    "aspect_ratio": "9:16"
+  },
+  "script": [
+    {
+      "t_start": 0.0,
+      "t_end": 3.5,
+      "speaker": "host",
+      "line": "Check out this easy side hustle I do right here from the front desk.",
+      "broll_cue": "Host gestures from the front desk towards the TV behind them.",
+      "on_screen_text": "Side hustle from your job?"
+    },
+    {
+      "t_start": 3.5,
+      "t_end": 9.5,
+      "speaker": "host",
+      "line": "Our gym gets super quiet mid-afternoon, and this TV just sits here. My manager was cool with me trying something to fill our off-peak classes.",
+      "broll_cue": "Quick shot of an empty yoga studio, then back to host.",
+      "on_screen_text": "Slow afternoons? Empty screens?"
+    },
+    {
+      "t_start": 9.5,
+      "t_end": 16.0,
+      "speaker": "host",
+      "line": "I use this app, Trillboards. On my phone, I just scanned a QR code from their site to pair this screen. Super simple.",
+      "broll_cue": "Phone screen recording: opening Trillboards app, pointing camera at a QR code shown on the TV.",
+      "on_screen_text": "Pair TV with phone"
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 26.0,
+      "speaker": "host",
+      "line": "I picked a 'class fill' template, added our 2 PM yoga special, and then browsed the marketplace to add a promo for the juice bar down the street.",
+      "broll_cue": "Phone screen recording: Tapping a template, typing '2 PM Yoga', then scrolling a list of local promos and tapping to add one.",
+      "on_screen_text": "1. Pick Template\n2. Add House Cards\n3. Add Local Promos"
+    },
+    {
+      "t_start": 26.0,
+      "t_end": 37.0,
+      "speaker": "host",
+      "line": "It just rotates automatically. We get more sign-ups, and the screen makes a little extra from the promos\u2014maybe $10 to $40 a day. It really depends on foot traffic.",
+      "broll_cue": "Wide shot of the TV rotating between a '2 PM YOGA' card and a '15% OFF a smoothie' card. A member points at it.",
+      "on_screen_text": "Earn $10-40+ daily (variable)"
+    },
+    {
+      "t_start": 37.0,
+      "t_end": 42.0,
+      "speaker": "host",
+      "line": "It's just a quiet, useful tool that solves a problem for us and the juice bar.",
+      "broll_cue": "Host gives a simple nod, looking satisfied. The TV continues rotating in the background.",
+      "on_screen_text": "Make screens useful."
+    }
+  ],
+  "caption_overlay": [
+    {
+      "t_start": 0.0,
+      "t_end": 3.5,
+      "text": "Check out this easy side hustle I do right here from the front desk.",
+      "emphasis_tokens": [
+        "side",
+        "hustle"
+      ]
+    },
+    {
+      "t_start": 3.5,
+      "t_end": 9.5,
+      "text": "Our gym gets super quiet mid-afternoon, and this TV just sits here. My manager was cool with me trying something to fill our off-peak classes.",
+      "emphasis_tokens": [
+        "quiet",
+        "manager",
+        "was",
+        "cool"
+      ]
+    },
+    {
+      "t_start": 9.5,
+      "t_end": 16.0,
+      "text": "I use this app, Trillboards. On my phone, I just scanned a QR code from their site to pair this screen. Super simple.",
+      "emphasis_tokens": [
+        "Trillboards",
+        "scanned",
+        "QR",
+        "code"
+      ]
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 26.0,
+      "text": "I picked a 'class fill' template, added our 2 PM yoga special, and then browsed the marketplace to add a promo for the juice bar down the street.",
+      "emphasis_tokens": [
+        "template",
+        "marketplace",
+        "promo"
+      ]
+    },
+    {
+      "t_start": 26.0,
+      "t_end": 37.0,
+      "text": "It just rotates automatically. We get more sign-ups, and the screen makes a little extra from the promos\u2014maybe $10 to $40 a day. It really depends on foot traffic.",
+      "emphasis_tokens": [
+        "rotates",
+        "automatically",
+        "$10",
+        "$40",
+        "depends"
+      ]
+    },
+    {
+      "t_start": 37.0,
+      "t_end": 42.0,
+      "text": "It's just a quiet, useful tool that solves a problem for us and the juice bar.",
+      "emphasis_tokens": [
+        "quiet",
+        "useful",
+        "tool"
+      ]
+    }
+  ],
+  "visual_cues": {
+    "primary": [
+      "Host (Alex) at gym front desk",
+      "TV screen in background showing Trillboards content",
+      "Phone screen showing Trillboards app UI",
+      "On-screen text callouts"
+    ],
+    "secondary": [
+      "B-roll of empty/quiet gym spaces",
+      "Close-up of the TV showing a specific house special ('2 PM Yoga')",
+      "Close-up of the TV showing a local promo ('Juice Bar Discount')"
+    ]
+  },
+  "trillboards_touchpoints": [
+    {
+      "moment": "Pairing screen",
+      "action": "Host scans a QR code on the TV using their phone.",
+      "why_it_helps": "Instantly connects the TV to the app without any hardware or complicated setup."
+    },
+    {
+      "moment": "Content scheduling",
+      "action": "Host selects a 'class fill' template and adds a card for a yoga class.",
+      "why_it_helps": "Quickly gets relevant, goal-oriented content on screen in seconds."
+    },
+    {
+      "moment": "Monetization",
+      "action": "Host adds a paid promo from the local marketplace.",
+      "why_it_helps": "Creates a small, passive revenue stream by utilizing screen downtime for relevant local offers."
+    }
+  ],
+  "constraints_and_risks": [
+    "Must have permission from the venue owner or manager to use the screen.",
+    "Ensure any local promos shown are non-competitive and fit the gym's brand (e.g., health food, athletic wear, not another gym or fast food)."
+  ],
+  "metrics_hypothesis": {
+    "hook_strength_guess": 7,
+    "retention_spikes_at_sec": [
+      12.0,
+      28.0
+    ],
+    "shareability_notes": "Highly shareable among gym/studio staff, part-time workers in venues with TVs, and side-hustle enthusiasts looking for low-effort ideas."
+  },
+  "variants": {
+    "alt_hooks": [
+      "This TV used to be totally useless between classes...",
+      "My manager loves this little trick for filling our 2 PM classes."
+    ],
+    "alt_pacing": [
+      "faster_emphasis_on_steps",
+      "story_first_then_steps"
+    ]
+  },
+  "rights_and_clearance_notes": "Requires permission to film at the gym location. Any gym branding must be cleared for use. Local promo examples should use fictional or cleared brand names."
+}

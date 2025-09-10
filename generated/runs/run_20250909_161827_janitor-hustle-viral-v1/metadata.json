@@ -1,0 +1,16 @@
+{
+  "run_id": "run_20250909_161827_janitor-hustle-viral-v1",
+  "blueprint_id": "janitor-hustle-viral-v1",
+  "timestamp": "20250909_161827",
+  "final_video": "final_video.mp4",
+  "thumbnail": "thumbnail.jpg",
+  "scenes": [
+    "scene_01.mp4",
+    "scene_02.mp4",
+    "scene_03.mp4",
+    "scene_04.mp4",
+    "scene_05.mp4"
+  ],
+  "duration_sec": 40,
+  "file_size_bytes": 20241314
+}

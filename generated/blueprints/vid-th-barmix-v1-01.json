@@ -1,0 +1,188 @@
+{
+  "id": "vid-th-barmix-v1-01",
+  "theme": "Bar staff upsell + local promos on slow nights",
+  "avatar_style": {
+    "persona": "Friendly, no-nonsense bartender in their late 20s or early 30s. Looks like they could be at the end of a shift.",
+    "wardrobe": "Dark t-shirt or bar-branded polo, maybe a half-apron.",
+    "setting": "A dimly lit, cozy neighborhood bar, either just before opening or after closing. Looks authentic."
+  },
+  "video_spec": {
+    "duration_sec": 45,
+    "framerate": 30,
+    "aspect_ratio": "9:16"
+  },
+  "script": [
+    {
+      "t_start": 0.0,
+      "t_end": 4.5,
+      "speaker": "host",
+      "line": "It\u2019s a slow Tuesday. You've wiped the same spot on the bar three times. Here's something useful to do.",
+      "broll_cue": "Host leans on a clean bar, looking bored but friendly at the camera.",
+      "on_screen_text": "Slow Night Side Hustle"
+    },
+    {
+      "t_start": 4.5,
+      "t_end": 10.0,
+      "speaker": "host",
+      "line": "See that TV in the corner? It's usually just playing muted news. We use it to actually move product.",
+      "broll_cue": "Quick pan to a TV in the bar showing a generic news channel or sports highlights, muted.",
+      "on_screen_text": ""
+    },
+    {
+      "t_start": 10.0,
+      "t_end": 17.0,
+      "speaker": "host",
+      "line": "It\u2019s an app called Trillboards. First, you just pull up a QR code on the TV and scan it with your phone to pair it. Takes 30 seconds.",
+      "broll_cue": "Host holds up phone. Screen-recording inlay shows scanning a QR code from screen.trillboards.com on the TV.",
+      "on_screen_text": "Step 1: Pair TV"
+    },
+    {
+      "t_start": 17.0,
+      "t_end": 26.0,
+      "speaker": "host",
+      "line": "Then you pick a playlist. We use the 'Bar Specials' one. It cycles through our high-margin cocktails, appetizer deals, and promotes our trivia night.",
+      "broll_cue": "Phone screen shows scrolling through templates and selecting 'Bar Specials'. The TV in the background changes to a professional-looking 'Cocktail of the Week' card.",
+      "on_screen_text": "Step 2: Choose Playlist"
+    },
+    {
+      "t_start": 26.0,
+      "t_end": 35.0,
+      "speaker": "host",
+      "line": "We also add in a few paid promos from local spots, like the yoga studio down the street. They're happy to reach people here.",
+      "broll_cue": "TV rotates to a card that says 'First Class Free @ Downtown Yoga'. Host gives a slight nod.",
+      "on_screen_text": "Step 3: Add local promos"
+    },
+    {
+      "t_start": 35.0,
+      "t_end": 45.0,
+      "speaker": "host",
+      "line": "It can bring in an extra ten to forty bucks a day for the venue, and people actually order the specials. Just get the okay from your manager first, obviously.",
+      "broll_cue": "Close up on the host, speaking sincerely. Final shot of the TV rotating between a drink special and a local event.",
+      "on_screen_text": "$10-40/day (variable)"
+    }
+  ],
+  "caption_overlay": [
+    {
+      "t_start": 0.5,
+      "t_end": 4.0,
+      "text": "It\u2019s a slow Tuesday. You've wiped the same spot on the bar three times.",
+      "emphasis_tokens": [
+        "slow",
+        "Tuesday",
+        "three",
+        "times"
+      ]
+    },
+    {
+      "t_start": 5.0,
+      "t_end": 9.5,
+      "text": "See that TV in the corner? We use it to actually move product.",
+      "emphasis_tokens": [
+        "TV",
+        "actually",
+        "move",
+        "product"
+      ]
+    },
+    {
+      "t_start": 10.5,
+      "t_end": 16.5,
+      "text": "It\u2019s an app called Trillboards. You just pull up a QR code on the TV and scan it with your phone.",
+      "emphasis_tokens": [
+        "Trillboards",
+        "QR",
+        "code",
+        "scan"
+      ]
+    },
+    {
+      "t_start": 17.5,
+      "t_end": 25.5,
+      "text": "Then you pick a playlist. It cycles through our high-margin cocktails and promotes our trivia night.",
+      "emphasis_tokens": [
+        "playlist",
+        "high-margin",
+        "cocktails",
+        "trivia"
+      ]
+    },
+    {
+      "t_start": 26.5,
+      "t_end": 32.0,
+      "text": "We also add in a few paid promos from local spots, like the yoga studio down the street.",
+      "emphasis_tokens": [
+        "paid",
+        "promos",
+        "local",
+        "spots"
+      ]
+    },
+    {
+      "t_start": 35.5,
+      "t_end": 44.5,
+      "text": "It can bring in an extra ten to forty bucks a day. Just get the okay from your manager first.",
+      "emphasis_tokens": [
+        "ten",
+        "forty",
+        "bucks",
+        "okay",
+        "manager"
+      ]
+    }
+  ],
+  "visual_cues": {
+    "primary": [
+      "Host (bartender) speaking directly to camera.",
+      "Using phone to interact with the Trillboards app.",
+      "The bar's TV screen displaying Trillboards content."
+    ],
+    "secondary": [
+      "Close-up on a freshly wiped, clean bar top.",
+      "Screen recording of the app interface.",
+      "B-roll of the bar environment: taps, glasses, ambient lighting.",
+      "A customer pointing at the TV and ordering."
+    ]
+  },
+  "trillboards_touchpoints": [
+    {
+      "moment": "Step 1: Pairing TV",
+      "action": "Scan a QR code from screen.trillboards.com with the app.",
+      "why_it_helps": "It's a one-time, 30-second setup that requires no hardware or technical skill."
+    },
+    {
+      "moment": "Step 2: Choosing Playlist",
+      "action": "Select a pre-made template like 'Bar Specials'.",
+      "why_it_helps": "Instantly populates the screen with relevant, professional-looking content without any design work."
+    },
+    {
+      "moment": "On-the-fly updates",
+      "action": "Swap out a special or event card from the phone.",
+      "why_it_helps": "Keeps content fresh and relevant (e.g., 86 an item, add a new beer) without needing a computer."
+    }
+  ],
+  "constraints_and_risks": [
+    "Must have permission from the venue owner or manager before setting up.",
+    "Earnings are not guaranteed; they depend on location, foot traffic, and advertiser demand.",
+    "Be considerate: only accept local promos that don't compete with the bar's own offerings (e.g., no promos for another bar)."
+  ],
+  "metrics_hypothesis": {
+    "hook_strength_guess": 8,
+    "retention_spikes_at_sec": [
+      17.0,
+      35.0
+    ],
+    "shareability_notes": "Highly shareable among service industry workers (bartenders, servers, managers) via group chats and DMs. Relatable problem, practical solution."
+  },
+  "variants": {
+    "alt_hooks": [
+      "Your bar has a TV. Here's how to make it actually earn its keep.",
+      "This TV is making more than just tips on a slow night.",
+      "Turn dead airtime on your bar's TV into your best upsell tool."
+    ],
+    "alt_pacing": [
+      "money_first_then_how",
+      "story_first_then_steps"
+    ]
+  },
+  "rights_and_clearance_notes": "Requires location release from the bar owner. Any background music must be from a licensed library (e.g., Artlist, Epidemic Sound). Avoid showing recognizable patrons without a release."
+}

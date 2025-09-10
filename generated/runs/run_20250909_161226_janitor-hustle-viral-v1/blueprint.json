@@ -1,0 +1,256 @@
+{
+  "id": "janitor-hustle-viral-v1",
+  "theme": "Night janitor's secret $200/week side hustle using office building TVs after hours",
+  "avatar_style": {
+    "persona": "Rebellious, street-smart character who discovered underground money-making method",
+    "wardrobe": "Casual, relatable clothing that signals 'regular person who cracked the code'",
+    "setting": "Gritty, authentic workplace setting - dim lighting, real environment not staged"
+  },
+  "video_spec": {
+    "duration_sec": 40,
+    "framerate": 30,
+    "aspect_ratio": "9:16"
+  },
+  "script": [
+    {
+      "t_start": 0.0,
+      "t_end": 3.0,
+      "speaker": "host",
+      "line": "SHOCKING: I made an extra $247 last week. From *their* TVs. After hours.",
+      "broll_cue": "Host secretly counting cash in dimly lit office, TV glowing behind them with corporate logo",
+      "on_screen_text": "MY SECRET $247/WEEK HUSTLE"
+    },
+    {
+      "t_start": 3.0,
+      "t_end": 8.0,
+      "speaker": "host",
+      "line": "A few months ago, I was barely making rent, scrubbing floors 'til 3 AM. This side hustle changed everything.",
+      "broll_cue": "Authentic struggle shots: tired host cleaning, empty wallet, bleak environment",
+      "on_screen_text": "THE STRUGGLE WAS REAL"
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 16.0,
+      "speaker": "host",
+      "line": "It started with a dead screen in the lobby. I found this app, Trillboards. It turns any dormant TV into a money-making machine for local businesses.",
+      "broll_cue": "Host subtly pulls out phone, opens Trillboards app, glances around cautiously. Close-up on app interface.",
+      "on_screen_text": "THE LOOPHOLE I FOUND"
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 24.0,
+      "speaker": "host",
+      "line": "They think these screens are just dead weight. But they're sitting on unclaimed income opportunities. Your company's not using them... so why not you?",
+      "broll_cue": "Host quickly scans QR code on office TV from Trillboards app, setting up a playlist of local promos. Emphasize stealth and speed.",
+      "on_screen_text": "THEIR LOSS, YOUR GAIN"
+    },
+    {
+      "t_start": 24.0,
+      "t_end": 32.0,
+      "speaker": "host",
+      "line": "Now, I'm pulling in an easy $180 to $247 extra every week. My 'job' just became a front for my real hustle. And they have no idea.",
+      "broll_cue": "Host shows Trillboards earnings dashboard on phone ($180, $210, $247 visible as weekly totals), then discreetly adds more cash to wad. Satisfied smirk.",
+      "on_screen_text": "PROOF: $180-247/WEEK"
+    },
+    {
+      "t_start": 32.0,
+      "t_end": 40.0,
+      "speaker": "host",
+      "line": "This only works if you have access to TVs \u2013 in a restaurant, a gym, a lobby. But if you do... what are you waiting for? Time to reclaim what's yours.",
+      "broll_cue": "Host winks at camera, walks away confidently with cleaning cart, TV in background cycling through new local promos. Fade to final text.",
+      "on_screen_text": "YOUR TURN? #SideHustle"
+    }
+  ],
+  "caption_overlay": [
+    {
+      "t_start": 0.0,
+      "t_end": 3.0,
+      "text": "MADE $247 FROM THEIR TVs",
+      "emphasis_tokens": [
+        "$247",
+        "THEIR",
+        "TVs"
+      ]
+    },
+    {
+      "t_start": 3.0,
+      "t_end": 8.0,
+      "text": "THEY STILL DON'T KNOW...",
+      "emphasis_tokens": [
+        "DON'T KNOW"
+      ]
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 16.0,
+      "text": "UNDERGROUND TV MONEY METHOD",
+      "emphasis_tokens": [
+        "UNDERGROUND",
+        "MONEY"
+      ]
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 24.0,
+      "text": "YOUR BOSS WON'T TELL YOU THIS",
+      "emphasis_tokens": [
+        "BOSS WON'T",
+        "THIS"
+      ]
+    },
+    {
+      "t_start": 24.0,
+      "t_end": 32.0,
+      "text": "$180-247/WEEK EXTRA INCOME",
+      "emphasis_tokens": [
+        "$180-247/WEEK",
+        "EXTRA"
+      ]
+    },
+    {
+      "t_start": 32.0,
+      "t_end": 40.0,
+      "text": "WORKS WITH ANY WORKPLACE TV",
+      "emphasis_tokens": [
+        "ANY",
+        "WORKPLACE"
+      ]
+    }
+  ],
+  "visual_cues": {
+    "primary": [
+      "money counting",
+      "secret phone usage",
+      "TV screen transformations",
+      "workplace settings"
+    ],
+    "secondary": [
+      "QR codes",
+      "app interface",
+      "cash/payments",
+      "stealth operations"
+    ]
+  },
+  "trillboards_touchpoints": [
+    {
+      "moment": "The Reveal",
+      "action": "Shows Trillboards app secretly",
+      "why_it_helps": "Trillboards turns *their* dead screens into *your* ATM."
+    },
+    {
+      "moment": "The Setup",
+      "action": "QR code scan on workplace TV",
+      "why_it_helps": "Takes 30 seconds to set up passive income."
+    },
+    {
+      "moment": "The Results",
+      "action": "Shows earnings dashboard",
+      "why_it_helps": "Proof of concept with real numbers: $180, $210, $247 this week."
+    }
+  ],
+  "constraints_and_risks": [
+    "Keep it legal but edgy",
+    "Don't encourage actual rule-breaking",
+    "Focus on unused/dead screen time"
+  ],
+  "metrics_hypothesis": {
+    "hook_strength_guess": 9,
+    "retention_spikes_at_sec": [
+      1.0,
+      8.0,
+      24.0
+    ],
+    "shareability_notes": "Controversial angle + specific money claims + FOMO"
+  },
+  "variants": {
+    "alt_hooks": [
+      "I made $XXX this month and my boss is clueless",
+      "This side hustle only works if you have TV access",
+      "Your workplace is sitting on money and doesn't know it"
+    ],
+    "alt_pacing": [
+      "money_first_method_second",
+      "struggle_story_then_revelation",
+      "controversy_then_proof"
+    ]
+  },
+  "rights_and_clearance_notes": "Edgy but legal content - focus on legitimate unused screen monetization",
+  "scene_breakdown": [
+    {
+      "scene_number": 1,
+      "duration_sec": 8,
+      "scene_type": "text_to_video",
+      "prompt_text": "Dramatic close-up of a night janitor in a dimly lit office building, secretly counting a wad of cash with a knowing, excited expression. A large, corporate TV screen glows with an idle company logo in the background. Cut to quick, gritty shots of the janitor looking exhausted while mopping, then showing an empty wallet, emphasizing their struggle.",
+      "continuity_notes": "Establish the underground/secret money-making vibe and struggle with dramatic lighting and quick cuts.",
+      "key_visual_elements": [
+        "cash money",
+        "workplace TV",
+        "secretive atmosphere",
+        "authentic person",
+        "struggle visuals (mopping, empty wallet)"
+      ],
+      "camera_instruction": "Close-up handheld style, slight shake for authenticity. Quick cuts for struggle montage.",
+      "lighting_notes": "Dim, dramatic lighting with TV glow."
+    },
+    {
+      "scene_number": 2,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continuing from last frame, the janitor looks around cautiously, then pulls out a phone, discreetly opening the Trillboards app. Emphasize the casual, hidden nature of the phone interaction, possibly an over-shoulder shot of the app screen.",
+      "continuity_notes": "Maintain secretive atmosphere and character, transition to showing the method.",
+      "key_visual_elements": [
+        "phone usage",
+        "cautious movements",
+        "app interface (Trillboards)"
+      ],
+      "camera_instruction": "Over shoulder shot of phone screen, quick glances around the room.",
+      "lighting_notes": "Same dim lighting with phone screen glow."
+    },
+    {
+      "scene_number": 3,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "The janitor quickly approaches a large, idle TV screen in the office lobby. The screen flickers to show a Trillboards QR code, which the janitor swiftly scans with their phone, constantly glancing over their shoulder for any onlookers. The app interface is briefly visible on the phone confirming the scan.",
+      "continuity_notes": "Build tension of secret operation, show the core interaction.",
+      "key_visual_elements": [
+        "QR code on TV",
+        "scanning action",
+        "stealth behavior",
+        "Trillboards app confirmation"
+      ],
+      "camera_instruction": "Quick cuts between phone and TV screen, focus on the scanning action.",
+      "lighting_notes": "TV brightness illuminates face dramatically during QR code display."
+    },
+    {
+      "scene_number": 4,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "The office TV screen now dynamically transforms, displaying various local promos and ads scheduled through Trillboards. The janitor steps back, a satisfied, almost defiant smile playing on their lips, watching the screen operate autonomously. Cut to a close-up of the Trillboards app on the phone, showing an earnings dashboard with clear weekly totals: $180, $210, $247, emphasizing growth.",
+      "continuity_notes": "Show the method working and the direct results.",
+      "key_visual_elements": [
+        "TV displaying ads",
+        "satisfied expression",
+        "setup complete",
+        "Trillboards earnings dashboard"
+      ],
+      "camera_instruction": "Wide shot showing full TV and person, then close-up on phone screen for earnings reveal.",
+      "lighting_notes": "Brighter as TV content illuminates space, phone screen brightness on face for reveal."
+    },
+    {
+      "scene_number": 5,
+      "duration_sec": 8,
+      "scene_type": "image_to_video",
+      "prompt_text": "Continuing from the earnings display, the janitor winks directly at the camera, then pockets their wad of cash. They push their cleaning cart away, fading into the dimly lit hallway, leaving the TV screen behind, still actively displaying the Trillboards content. The last shot is the TV, then fading to a final text overlay with a call to action.",
+      "continuity_notes": "Reveal the payoff and success, end with a strong CTA.",
+      "key_visual_elements": [
+        "direct camera address (wink)",
+        "money/cash",
+        "janitor leaving scene confidently",
+        "TV continuing to display promos",
+        "final text overlay"
+      ],
+      "camera_instruction": "Close-up on face for wink, then wider shot of janitor leaving, final fade to text.",
+      "lighting_notes": "Dim hallway lighting, TV glow remains."
+    }
+  ]
+}

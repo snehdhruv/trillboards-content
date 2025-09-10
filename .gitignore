@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Generated content (large video files)
+generated/runs/*/scenes/*.mp4
+generated/runs/*/finals/*.mp4
+generated/runs/*/frames/*.jpg
+generated/archive/*.mp4
+generated/finals/*.mp4
+generated/projects/*/scenes/*.mp4
+generated/projects/*/finals/*.mp4
+generated/projects/*/frames/*.jpg
+
+# Temporary files
+generated/temp/
+generated/runs/*/temp/
+*.tmp
+*.temp
+
+# API keys and secrets
+config/secrets.py
+config/api_keys.py
+.env.local
+.env.production
+
+# Model files and large assets
+*.pt
+*.pth
+*.model
+*.bin
+
+# Backup files
+*.backup
+*_backup_*

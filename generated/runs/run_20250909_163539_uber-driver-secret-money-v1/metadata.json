@@ -1,0 +1,16 @@
+{
+  "run_id": "run_20250909_163539_uber-driver-secret-money-v1",
+  "blueprint_id": "uber-driver-secret-money-v1",
+  "timestamp": "20250909_163539",
+  "final_video": "final_video_with_overlays.mp4",
+  "thumbnail": "thumbnail.jpg",
+  "scenes": [
+    "scene_01.mp4",
+    "scene_02.mp4",
+    "scene_03.mp4",
+    "scene_04.mp4",
+    "scene_05.mp4"
+  ],
+  "duration_sec": 40,
+  "file_size_bytes": 8337312
+}

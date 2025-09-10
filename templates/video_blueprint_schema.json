@@ -1,0 +1,113 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id","theme","avatar_style","video_spec","script","caption_overlay","visual_cues","trillboards_touchpoints","constraints_and_risks","metrics_hypothesis","variants","rights_and_clearance_notes"],
+    "properties": {
+      "id": {"type":"string"},
+      "theme": {"type":"string"},
+      "avatar_style": {
+        "type":"object",
+        "required":["persona","wardrobe","setting"],
+        "properties":{
+          "persona":{"type":"string"},
+          "wardrobe":{"type":"string"},
+          "setting":{"type":"string"}
+        }
+      },
+      "video_spec": {
+        "type":"object",
+        "required":["duration_sec","framerate","aspect_ratio"],
+        "properties":{
+          "duration_sec":{"type":"number","minimum":30,"maximum":75},
+          "framerate":{"type":"number","enum":[24,25,30,60]},
+          "aspect_ratio":{"type":"string","enum":["9:16"]}
+        }
+      },
+      "script": {
+        "type":"array",
+        "items":{
+          "type":"object",
+          "required":["t_start","t_end","speaker","line","broll_cue","on_screen_text"],
+          "properties":{
+            "t_start":{"type":"number","minimum":0},
+            "t_end":{"type":"number"},
+            "speaker":{"type":"string"},
+            "line":{"type":"string"},
+            "broll_cue":{"type":"string"},
+            "on_screen_text":{"type":"string"}
+          }
+        }
+      },
+      "caption_overlay": {
+        "type":"array",
+        "items":{
+          "type":"object",
+          "required":["t_start","t_end","text","emphasis_tokens"],
+          "properties":{
+            "t_start":{"type":"number","minimum":0},
+            "t_end":{"type":"number"},
+            "text":{"type":"string"},
+            "emphasis_tokens":{"type":"array","items":{"type":"string"}, "maxItems":4}
+          }
+        }
+      },
+      "visual_cues": {
+        "type":"object",
+        "required":["primary","secondary"],
+        "properties":{
+          "primary":{"type":"array","items":{"type":"string"}},
+          "secondary":{"type":"array","items":{"type":"string"}}
+        }
+      },
+      "trillboards_touchpoints": {
+        "type":"array",
+        "items":{
+          "type":"object",
+          "required":["moment","action","why_it_helps"],
+          "properties":{
+            "moment":{"type":"string"},
+            "action":{"type":"string"},
+            "why_it_helps":{"type":"string"}
+          }
+        }
+      },
+      "constraints_and_risks":{"type":"array","items":{"type":"string"}},
+      "metrics_hypothesis":{
+        "type":"object",
+        "required":["hook_strength_guess","retention_spikes_at_sec","shareability_notes"],
+        "properties":{
+          "hook_strength_guess":{"type":"number","minimum":1,"maximum":10},
+          "retention_spikes_at_sec":{"type":"array","items":{"type":"number"}},
+          "shareability_notes":{"type":"string"}
+        }
+      },
+      "variants": {
+        "type":"object",
+        "required":["alt_hooks","alt_pacing"],
+        "properties":{
+          "alt_hooks":{"type":"array","items":{"type":"string"}, "minItems":2, "maxItems":3},
+          "alt_pacing":{"type":"array","items":{"type":"string"}, "minItems":2, "maxItems":2}
+        }
+      },
+      "rights_and_clearance_notes":{"type":"string"},
+      "scene_breakdown": {
+        "type":"array",
+        "items":{
+          "type":"object",
+          "required":["scene_number","duration_sec","scene_type","prompt_text","continuity_notes"],
+          "properties":{
+            "scene_number":{"type":"number","minimum":1},
+            "duration_sec":{"type":"number","maximum":8},
+            "scene_type":{"type":"string","enum":["text_to_video","image_to_video"]},
+            "prompt_text":{"type":"string"},
+            "continuity_notes":{"type":"string"},
+            "key_visual_elements":{"type":"array","items":{"type":"string"}},
+            "camera_instruction":{"type":"string"},
+            "lighting_notes":{"type":"string"}
+          }
+        }
+      }
+    }
+  }
+}

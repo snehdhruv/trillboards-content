@@ -1,0 +1,13 @@
+{
+  "organization_date": "2025-09-09T16:15:32.298594",
+  "organized_files_count": 32,
+  "directory_structure": {
+    "blueprints/": "All blueprint JSON files organized by ID",
+    "runs/": "All video generation runs organized by timestamp",
+    "archive/": "Legacy files and miscellaneous content",
+    "legacy/": "Reserved for future use"
+  },
+  "blueprints_count": 9,
+  "runs_count": 1,
+  "archived_files_count": 5
+}
